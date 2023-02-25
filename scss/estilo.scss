@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #263d54;
+    color: white;
+    font-family: monospace;
+}
+
+header{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    background-color: #bf1b27;
+}
+
+footer {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    background-color: #bf1b27;
+}
+
+section {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #bf1b27;
+    border-radius: 10px;
+}
+
+aside{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    height: 350px;
+    width:auto;
+    overflow-y: scroll;
+    text-align: justify;
+}
+
+table{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+th, tr, td {
+    padding: 1px 1px 1px 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #263d54;
+    border-radius: 3px;
+    text-align: center;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border-style: none;
+    text-align: center;
+}
+
+/*Clases*/
+
+.calculadora {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #bf1b27;
+    border-radius: 10px;
+    display:flex;
+    justify-content:space-between;
+    height: auto;
+    width: 100%;
+}
+
+
+.boton {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    color: bisque;
+    background-color: #263d54;
+    cursor: pointer;
+}
+
+//Estilo del Menú de navegación
+.navBar {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    display: flex;
+    ul{
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+        li{
+            margin: 5px 5px 5px 5px;
+            padding: 5px 5px 5px 5px; 
+            a{
+                margin: 5px 5px 5px 5px;
+                padding: 5px 5px 5px 5px;
+                text-decoration: none; 
+            }
+        }
+    }
+}

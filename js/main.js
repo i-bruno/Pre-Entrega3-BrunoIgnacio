@@ -4,7 +4,6 @@ body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <sect
 
 const encabezado = document.getElementById("encabezado");
 const navegacion = document.getElementById("navBar");
-nevegacion.className = "navBar";
 const infoPrincipal = document.getElementById("seccionPrincipal");
 const infoSecundaria = document.getElementById("menuLateral");
 const pie = document.getElementById("piePagina"); 
@@ -16,35 +15,41 @@ titulo.id = "tituloPrincipal";
 encabezado.appendChild(titulo);
 
 //Segundo Nodo: Menú de navegación
-const listaOrdenada = document.createElement("ol");
+const listaOrdenada = document.createElement("ul");
+navegacion.appendChild(listaOrdenada);
+listaOrdenada.className = "navBar";
+
 const elementoListaOrdenada1 = document.createElement("li");
-const elementoListaOrdenada2 = document.createElement("li");
-const elementoListaOrdenada3 = document.createElement("li");
-const elementoListaOrdenada4 = document.createElement("li");
-
-elementoListaOrdenada1.innerText = "Inicio";
-elementoListaOrdenada1.id = "inicio";
-
-elementoListaOrdenada2.innerText = "Quienes somos";
-elementoListaOrdenada2.id = "quienes";
-
-elementoListaOrdenada3.innerText = "Otros proyectos";
-elementoListaOrdenada3.id = "proyectos";
-
-elementoListaOrdenada4.innerText = "Contacto";
-elementoListaOrdenada4.id = "contacto";
-
 listaOrdenada.appendChild(elementoListaOrdenada1);
-navegacion.appendChild(listaOrdenada);
 
+const elementoListaOrdenada2 = document.createElement("li");
 listaOrdenada.appendChild(elementoListaOrdenada2);
-navegacion.appendChild(listaOrdenada);
 
+const elementoListaOrdenada3 = document.createElement("li");
 listaOrdenada.appendChild(elementoListaOrdenada3);
-navegacion.appendChild(listaOrdenada);
 
+const elementoListaOrdenada4 = document.createElement("li");
 listaOrdenada.appendChild(elementoListaOrdenada4);
-navegacion.appendChild(listaOrdenada);
+
+const linkElementoUno = document.createElement("a");
+linkElementoUno.innerText="Inicio";
+elementoListaOrdenada1.appendChild(linkElementoUno);
+linkElementoUno.setAttribute('href', '#');
+
+const linkElementoDos = document.createElement("a");
+linkElementoDos.innerText="Quienes somos";
+elementoListaOrdenada2.appendChild(linkElementoDos);
+linkElementoDos.setAttribute('href', '#');
+
+const linkElementoTres = document.createElement("a");
+linkElementoTres.innerText="Otros proyectos";
+elementoListaOrdenada3.appendChild(linkElementoTres);
+linkElementoTres.setAttribute('href', '#');
+
+const linkElementoCuatro = document.createElement("a");
+linkElementoCuatro.innerText="Contacto";
+elementoListaOrdenada4.appendChild(linkElementoCuatro);
+linkElementoCuatro.setAttribute('href', '#');
 
 //Tercer Nodo: Información/sección Principal
 const primerInput = document.createElement("input");
