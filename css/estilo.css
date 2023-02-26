@@ -56,12 +56,19 @@ th, tr, td {
   text-align: center; }
 
 input {
-  margin: 0;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
   padding: 0;
-  width: auto;
-  height: auto;
+  width: 150px;
+  height: 25px;
   border-style: none;
   text-align: center; }
+
+a {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  color: white; }
 
 /*Clases*/
 .calculadora {
@@ -94,7 +101,8 @@ input {
     .navBar ul li {
       margin: 5px 5px 5px 5px;
       padding: 5px 5px 5px 5px; }
-      .navBar ul li a {
-        margin: 5px 5px 5px 5px;
-        padding: 5px 5px 5px 5px;
-        text-decoration: none; }
+
+.cuadroSeleccion {
+  width: 200px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px; }
