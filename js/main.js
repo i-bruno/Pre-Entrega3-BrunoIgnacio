@@ -3,12 +3,19 @@ body.id = "cuerpo";
 body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section><section id="seccionPrincipal"></section> <section id="posSeccion"></section><aside id="menuLateral"></aside> <footer id="piePagina"></footer>';
 
 const encabezado = document.getElementById("encabezado");
+encabezado.className = "classEncabezado";
 const navegacion = document.getElementById("navBar");
+navegacion.className = "classNavegacion";
 const preSeccion = document.getElementById("preSeccion");
+preSeccion.className = "classPreSeccion";
 const infoPrincipal = document.getElementById("seccionPrincipal");
+infoPrincipal.className = "classInfoPrincipal";
 const posSeccion = document.getElementById("posSeccion");
+posSeccion.className = "classPosSeccion";
 const infoSecundaria = document.getElementById("menuLateral");
+infoSecundaria.className = "classInfoSecundaria";
 const pie = document.getElementById("piePagina"); 
+pie.className = "classPie";
 
 //Primer Nodo: Título
 const titulo = document.createElement("h1");
@@ -161,7 +168,14 @@ posSeccion.appendChild(etiqVotosImpugnados);
 const votosImpugnados = document.createElement("input");
 posSeccion.appendChild(votosImpugnados);
 
+const boton = document.createElement("input");
+boton.setAttribute('type', 'submit');
+boton.className = "boton";
+posSeccion.appendChild(boton);
+
 //Sexto Nodo: Información secundaria(aside)
+infoPrincipal.appendChild(infoSecundaria);
+
 const tituloEstatuto = document.createElement("h3");
 tituloEstatuto.innerText = "Estatuto del Club Atlético San Lorenzo de Almagro";
 infoSecundaria.appendChild(tituloEstatuto);

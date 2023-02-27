@@ -32,15 +32,18 @@ section {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   background-color: #bf1b27;
-  border-radius: 10px; }
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly; }
 
 aside {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  height: 350px;
-  width: auto;
+  height: 200px;
+  width: 350px;
   overflow-y: scroll;
-  text-align: justify; }
+  text-align: justify;
+  display: inline-block; }
 
 table {
   background-color: white;
@@ -106,3 +109,25 @@ a {
   width: 200px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px; }
+
+.classNavegacion {
+  display: flex;
+  justify-content: space-evenly; }
+
+.classPreSeccion {
+  display: flex;
+  justify-content: left;
+  align-items: center; }
+
+.classInfoPrincipal {
+  display: flex;
+  justify-content: space-evenly; }
+
+.classPosSeccion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.classPie {
+  display: flex;
+  justify-content: space-evenly; }
