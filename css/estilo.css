@@ -32,18 +32,7 @@ section {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   background-color: #bf1b27;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-evenly; }
-
-aside {
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
-  height: 200px;
-  width: 350px;
-  overflow-y: scroll;
-  text-align: justify;
-  display: inline-block; }
+  border-radius: 10px; }
 
 table {
   background-color: white;
@@ -121,7 +110,34 @@ a {
 
 .classInfoPrincipal {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: auto;
+  align-items: center; }
+
+.aside {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  height: 200px;
+  width: auto;
+  overflow-y: scroll;
+  text-align: justify;
+  display: inline-block;
+  background-color: #bf1b27;
+  border-radius: 10px; }
+  .aside h3 {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; }
+  .aside h4 {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; }
+  .aside p {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; }
+  .aside li {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    list-style-type: none; }
 
 .classPosSeccion {
   display: flex;

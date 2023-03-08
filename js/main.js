@@ -1,6 +1,6 @@
 const body = document.body;
 body.id = "cuerpo";
-body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section><section id="seccionPrincipal"></section> <section id="posSeccion"></section><aside id="menuLateral"></aside> <footer id="piePagina"></footer>';
+body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section><section id="seccionPrincipal"></section> <section id="posSeccion"></section><aside id="menuLateral"></aside>  <footer id="piePagina"></footer>';
 
 const encabezado = document.getElementById("encabezado");
 encabezado.className = "classEncabezado";
@@ -60,92 +60,245 @@ linkElementoCuatro.innerText="Contacto";
 elementoListaOrdenada4.appendChild(linkElementoCuatro);
 linkElementoCuatro.setAttribute('href', '#');
 
-//Sexto Nodo: ¿Cuántas agrupaciones son?
+//Tercer Nodo: ¿Cuántas agrupaciones son?
 const etiquetaPreSeccion = document.createElement("label");
 etiquetaPreSeccion.innerText="¿Cuántas listas o agrupaciones participan de la elección?";
 preSeccion.appendChild(etiquetaPreSeccion);
 
-const inputPreSeccion = document.createElement("select");
-inputPreSeccion.className = "cuadroSeleccion";
+///Input para que el usuario ingrese la cantidad de listas
+const inputPreSeccion = document.createElement("input");
+inputPreSeccion.id = "numListas";
+inputPreSeccion.setAttribute('type', 'number');
 preSeccion.appendChild(inputPreSeccion);
 
-const opcionSelect1 = document.createElement("option");
-opcionSelect1.innerText = "Seleccione un número";
-inputPreSeccion.appendChild(opcionSelect1);
+///Botón para que el usuario envíe la información.
+const btn = document.createElement("button");
+btn.id = "btn";
+btn.setAttribute('type', 'submit');
+btn.className = "boton";
+btn.innerText = "Enviar";
+btn.addEventListener("click", prueba);
+preSeccion.appendChild(btn);
 
-const opcionSelect2 = document.createElement("option");
-opcionSelect2.innerText = "1";
-opcionSelect2.setAttribute('value', '1');
-inputPreSeccion.appendChild(opcionSelect2);
+///Variable que debería contener el número.
+let listas = document.getElementById("numListas");
 
-const opcionSelect3 = document.createElement("option");
-opcionSelect3.innerText = "2";
-opcionSelect3.setAttribute('value', '2');
-inputPreSeccion.appendChild(opcionSelect3);
+function prueba(){
+    switch(listas){
+        case 1:
+        
+        break;
 
-const opcionSelect4 = document.createElement("option");
-opcionSelect4.innerText = "3";
-opcionSelect1.setAttribute('value', '3');
-inputPreSeccion.appendChild(opcionSelect4);
+        case 2:
+            const divListaA = document.createElement("div");
+            divListaA.className = "agrupacion";
+            divListaA.id = "listaA";
+            infoPrincipal.appendChild(divListaA);
+        
+                const primerInputA = document.createElement("input");
+                primerInputA.setAttribute('placeholder', 'Agrupación...')
+                divListaA.appendChild(primerInputA);
+                
+                const segundoInputA = document.createElement("input");
+                segundoInputA.setAttribute('placeholder', 'Candidato...')
+                divListaA.appendChild(segundoInputA);
+                
+                const tercerInputA = document.createElement("input");
+                tercerInputA.setAttribute('placeholder', 'Votos')
+                divListaA.appendChild(tercerInputA);
 
-const opcionSelect5 = document.createElement("option");
-opcionSelect5.innerText = "4";
-opcionSelect1.setAttribute('value', '4');
-inputPreSeccion.appendChild(opcionSelect5);
+            const divListaB = document.createElement("div");
+            divListaB.className = "agrupacion";
+            divListaB.id = "listaB";
+            infoPrincipal.appendChild(divListaB);
+                    
+                const primerInputB = document.createElement("input");
+                primerInputB.setAttribute('placeholder', 'Agrupación...')
+                divListaB.appendChild(primerInputB);
+                    
+                const segundoInputB = document.createElement("input");
+                segundoInputB.setAttribute('placeholder', 'Candidato...')
+                divListaB.appendChild(segundoInputB);
+                    
+                const tercerInputB = document.createElement("input");
+                tercerInputB.setAttribute('placeholder', 'Votos')
+                divListaB.appendChild(tercerInputB);    
+        break;
+    }
 
-const opcionSelect6 = document.createElement("option");
-opcionSelect6.innerText = "5";
-opcionSelect1.setAttribute('value', '5');
-inputPreSeccion.appendChild(opcionSelect6);
+    
 
-const opcionSelect7 = document.createElement("option");
-opcionSelect7.innerText = "6";
-opcionSelect1.setAttribute('value', '6');
-inputPreSeccion.appendChild(opcionSelect7);
-
-const opcionSelect8 = document.createElement("option");
-opcionSelect8.innerText = "7";
-opcionSelect1.setAttribute('value', '7');
-inputPreSeccion.appendChild(opcionSelect8);
-
-const opcionSelect9 = document.createElement("option");
-opcionSelect9.innerText = "8";
-opcionSelect1.setAttribute('value', '8');
-inputPreSeccion.appendChild(opcionSelect9);
-
-const opcionSelect10 = document.createElement("option");
-opcionSelect10.innerText = "9";
-opcionSelect1.setAttribute('value', '9');
-inputPreSeccion.appendChild(opcionSelect10);
-
-const opcionSelect11 = document.createElement("option");
-opcionSelect11.innerText = "10";
-opcionSelect11.setAttribute('value', '10');
-inputPreSeccion.appendChild(opcionSelect11);
-
-
-
+};
 //Cuarto Nodo: Información/sección Principal
-const primerInput = document.createElement("input");
-primerInput.setAttribute('placeholder', 'Agrupación...')
-infoPrincipal.appendChild(primerInput);
+// const divListaA = document.createElement("div");
+// divListaA.className = "agrupacion";
+// divListaA.id = "listaA";
+// infoPrincipal.appendChild(divListaA);
+    
+//     const primerInputA = document.createElement("input");
+//     primerInputA.setAttribute('placeholder', 'Agrupación...')
+//     divListaA.appendChild(primerInputA);
+    
+//     const segundoInputA = document.createElement("input");
+//     segundoInputA.setAttribute('placeholder', 'Candidato...')
+//     divListaA.appendChild(segundoInputA);
+    
+//     const tercerInputA = document.createElement("input");
+//     tercerInputA.setAttribute('placeholder', 'Votos')
+//     divListaA.appendChild(tercerInputA);
+    
+// const divListaB = document.createElement("div");
+// divListaB.className = "agrupacion";
+// divListaB.id = "listaB";
+// infoPrincipal.appendChild(divListaB);
+    
+//     const primerInputB = document.createElement("input");
+//     primerInputB.setAttribute('placeholder', 'Agrupación...')
+//     divListaB.appendChild(primerInputB);
+    
+//     const segundoInputB = document.createElement("input");
+//     segundoInputB.setAttribute('placeholder', 'Candidato...')
+//     divListaB.appendChild(segundoInputB);
+    
+//     const tercerInputB = document.createElement("input");
+//     tercerInputB.setAttribute('placeholder', 'Votos')
+//     divListaB.appendChild(tercerInputB);
 
-const segundoInput = document.createElement("input");
-segundoInput.setAttribute('placeholder', 'Candidato...')
-infoPrincipal.appendChild(segundoInput);
+// const divListaC = document.createElement("div");
+// divListaC.className = "agrupacion";
+// divListaC.id = "listaC";
+// infoPrincipal.appendChild(divListaC);
 
-const tercerInput = document.createElement("input");
-tercerInput.setAttribute('placeholder', 'Votos')
-infoPrincipal.appendChild(tercerInput);
+//     const primerInputC = document.createElement("input");
+//     primerInputC.setAttribute('placeholder', 'Agrupación...')
+//     divListaC.appendChild(primerInputC);
+    
+//     const segundoInputC = document.createElement("input");
+//     segundoInputC.setAttribute('placeholder', 'Candidato...')
+//     divListaC.appendChild(segundoInputC);
+    
+//     const tercerInputC = document.createElement("input");
+//     tercerInputC.setAttribute('placeholder', 'Votos')
+//     divListaC.appendChild(tercerInputC);
 
-const cuartoInput = document.createElement("input");
-cuartoInput.setAttribute('placeholder', 'Ingrese el nombre de la agrupación...')
-infoPrincipal.appendChild(cuartoInput);
+// const divListaD = document.createElement("div");
+// divListaD.className = "agrupacion";
+// divListaD.id = "listaD";
+// infoPrincipal.appendChild(divListaD);
 
-const quintoInput = document.createElement("input");
-quintoInput.setAttribute('placeholder', 'Ingrese el nombre de la agrupación...')
-infoPrincipal.appendChild(quintoInput);
+//     const primerInputD = document.createElement("input");
+//     primerInputD.setAttribute('placeholder', 'Agrupación...')
+//     divListaD.appendChild(primerInputD);
+    
+//     const segundoInputD = document.createElement("input");
+//     segundoInputD.setAttribute('placeholder', 'Candidato...')
+//     divListaD.appendChild(segundoInputD);
+    
+//     const tercerInputD = document.createElement("input");
+//     tercerInputD.setAttribute('placeholder', 'Votos')
+//     divListaD.appendChild(tercerInputD);
 
+// const divListaE = document.createElement("div");
+// divListaE.className = "agrupacion";
+// divListaE.id = "listaE";
+// infoPrincipal.appendChild(divListaE);
+
+//     const primerInputE = document.createElement("input");
+//     primerInputE.setAttribute('placeholder', 'Agrupación...')
+//     divListaE.appendChild(primerInputE);
+    
+//     const segundoInputE = document.createElement("input");
+//     segundoInputE.setAttribute('placeholder', 'Candidato...')
+//     divListaE.appendChild(segundoInputE);
+    
+//     const tercerInputE = document.createElement("input");
+//     tercerInputE.setAttribute('placeholder', 'Votos')
+//     divListaE.appendChild(tercerInputE);
+
+// const divListaF = document.createElement("div");
+// divListaF.className = "agrupacion";
+// divListaF.id = "listaF";
+// infoPrincipal.appendChild(divListaF);
+
+//     const primerInputF = document.createElement("input");
+//     primerInputF.setAttribute('placeholder', 'Agrupación...')
+//     divListaF.appendChild(primerInputF);
+    
+//     const segundoInputF = document.createElement("input");
+//     segundoInputF.setAttribute('placeholder', 'Candidato...')
+//     divListaF.appendChild(segundoInputF);
+    
+//     const tercerInputF = document.createElement("input");
+//     tercerInputF.setAttribute('placeholder', 'Votos')
+//     divListaF.appendChild(tercerInputF);
+
+// const divListaG = document.createElement("div");
+// divListaG.className = "agrupacion";
+// divListaG.id = "listaG";
+// infoPrincipal.appendChild(divListaG);
+
+//     const primerInputG = document.createElement("input");
+//     primerInputG.setAttribute('placeholder', 'Agrupación...')
+//     divListaG.appendChild(primerInputG);
+    
+//     const segundoInputG = document.createElement("input");
+//     segundoInputG.setAttribute('placeholder', 'Candidato...')
+//     divListaG.appendChild(segundoInputG);
+    
+//     const tercerInputG = document.createElement("input");
+//     tercerInputG.setAttribute('placeholder', 'Votos')
+//     divListaG.appendChild(tercerInputG);
+
+// const divListaH = document.createElement("div");
+// divListaH.className = "agrupacion";
+// divListaH.id = "listaH";
+// infoPrincipal.appendChild(divListaH);
+
+//     const primerInputH = document.createElement("input");
+//     primerInputH.setAttribute('placeholder', 'Agrupación...')
+//     divListaH.appendChild(primerInputH);
+    
+//     const segundoInputH = document.createElement("input");
+//     segundoInputH.setAttribute('placeholder', 'Candidato...')
+//     divListaH.appendChild(segundoInputH);
+    
+//     const tercerInputH = document.createElement("input");
+//     tercerInputH.setAttribute('placeholder', 'Votos')
+//     divListaH.appendChild(tercerInputH);
+
+// const divListaI = document.createElement("div");
+// divListaI.className = "agrupacion";
+// divListaI.id = "listaI";
+// infoPrincipal.appendChild(divListaI);
+
+//     const primerInputI = document.createElement("input");
+//     primerInputI.setAttribute('placeholder', 'Agrupación...')
+//     divListaI.appendChild(primerInputI);
+    
+//     const segundoInputI = document.createElement("input");
+//     segundoInputI.setAttribute('placeholder', 'Candidato...')
+//     divListaI.appendChild(segundoInputI);
+    
+//     const tercerInputI = document.createElement("input");
+//     tercerInputI.setAttribute('placeholder', 'Votos')
+//     divListaI.appendChild(tercerInputI);
+
+// const divListaJ = document.createElement("div");
+// divListaJ.className = "agrupacion";
+// divListaJ.id = "listaJ";
+// infoPrincipal.appendChild(divListaJ);
+
+//     const primerInputJ = document.createElement("input");
+//     primerInputJ.setAttribute('placeholder', 'Agrupación...')
+//     divListaJ.appendChild(primerInputJ);
+    
+//     const segundoInputJ = document.createElement("input");
+//     segundoInputJ.setAttribute('placeholder', 'Candidato...')
+//     divListaJ.appendChild(segundoInputJ);
+    
+//     const tercerInputJ = document.createElement("input");
+//     tercerInputJ.setAttribute('placeholder', 'Votos')
+//     divListaJ.appendChild(tercerInputJ);
 //Quinto Nodo: Post sección principal
 const etiqVotosBlancos = document.createElement("label");
 etiqVotosBlancos.innerText = "Votos blancos"
@@ -171,10 +324,11 @@ posSeccion.appendChild(votosImpugnados);
 const boton = document.createElement("input");
 boton.setAttribute('type', 'submit');
 boton.className = "boton";
+boton.addEventListener("click", resultado);
 posSeccion.appendChild(boton);
 
 //Sexto Nodo: Información secundaria(aside)
-infoPrincipal.appendChild(infoSecundaria);
+menuLateral.className = "aside";
 
 const tituloEstatuto = document.createElement("h3");
 tituloEstatuto.innerText = "Estatuto del Club Atlético San Lorenzo de Almagro";
@@ -247,12 +401,13 @@ infoSecundaria.appendChild(parrafoArt106);
 
 
 //Séptimo Nodo: Pie de página
+function resultado(){
+    //Crea un pequeño enunciado
+    let tituloResultado = document.createElement("h2");
+    tituloResultado.innerText = "El resultado de las elecciones es el siguiente:"
+    pie.appendChild(tituloResultado);
 
-
-// body.innerHTML = '<h1>Calculadora de Cargos del Club Atlético San Lorenzo de Almagro</h1>';
-// body.innerHTML = '<footer></footer>';
-
-// const parrafo = document.createElement('p');
-// parrafo.innerText = 'Este es un párrafo';
-// parrafo.className = 'titulo';
-// body.appendChild(parrafo); 
+    const seccionResultado = document.createElement("section");
+    seccionResultado.innerHTML = '<div></div>';
+    pie.appendChild(seccionResultado);
+}
