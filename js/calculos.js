@@ -13,73 +13,56 @@ const lista2 = new Agrupaciones ("sin definir", "sin definir", 0);
 const lista3 = new Agrupaciones ("sin definir", "sin definir", 0);
 const lista4 = new Agrupaciones ("sin definir", "sin definir", 0);
 const lista5 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista6 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista7 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista8 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista9 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista10 = new Agrupaciones ("sin definir", "sin definir", 0);
 
-//Se solicita al usuario que defina cuántas listas se presentan a elecciones
-let listas = parseInt(prompt("¿Cuántas listas se presentan?"));
+//Se toma los datos de los inputs creados.
 
-//Se crea una función que implementa un switch para crear la cantidad de objetos, según lo que defina el usuario en el prompt anterior.
-function numListas() {
-    switch(parseInt(listas)){
-        case 1:
-            alert("No hay elecciones");
-        break;
+lista1.nombre = document.getElementById("inputListaA").value;
+lista1.candidato = document.getElementById("segudoInputListaA").value;
+lista1.votos = document.getElementById("tercerInputListaA").value;
 
-        case 2:
-            lista1.nombre = prompt("¿Cuál es el nombre de la lista 1?");
-            lista1.candidato = prompt("¿Cuál es el nombre del candidato de " + lista1.nombre + "?");
+lista2.nombre = document.getElementById("inputListaB");
+lista2.candidato = document.getElementById("segudoInputListaB");
+lista2.votos = document.getElementById("tercerInputListaB").value;
 
-            lista2.nombre = prompt("¿Cuál es el nombre de la lista 2?");
-            lista2.candidato = prompt("¿Cuál es el nombre del candidato de "  + lista2.nombre + "?");
-        break;
+lista3.nombre = document.getElementById("inputListaC");
+lista3.candidato = document.getElementById("segudoInputListaC");
+lista3.votos = document.getElementById("tercerInputListaC").value;
 
-        case 3:
-            lista1.nombre = prompt("¿Cuál es el nombre de la lista 1?");
-            lista1.candidato = prompt("¿Cuál es el nombre del candidato de " + lista1.nombre + "?");
+lista4.nombre = document.getElementById("inputListaD");
+lista4.candidato = document.getElementById("segudoInputListaD");
+lista4.votos = document.getElementById("tercerInputListaD").value;
 
-            lista2.nombre = prompt("¿Cuál es el nombre de la lista 2?");
-            lista2.candidato = prompt("¿Cuál es el nombre del candidato de " + lista2.nombre + "?");
+lista5.nombre = document.getElementById("inputListaE");
+lista5.candidato = document.getElementById("segudoInputListaE");
+lista5.votos = document.getElementById("tercerInputListaE").value;
 
-            lista3.nombre = prompt("¿Cuál es el nombre de la lista 3?");
-            lista3.candidato = prompt("¿Cuál es el nombre del candidato de " + lista3.nombre + "?");
-        break;
+lista6.nombre = document.getElementById("inputListaF");
+lista6.candidato = document.getElementById("segudoInputListaF");
+lista6.votos = document.getElementById("tercerInputListaF").value;
 
-        case 4:
-            lista1.nombre = prompt("¿Cuál es el nombre de la lista 1?");
-            lista1.candidato = prompt("¿Cuál es el nombre del candidato de " + lista1.nombre + "?");
+lista7.nombre = document.getElementById("inputListaG");
+lista7.candidato = document.getElementById("segudoInputListaG");
+lista7.votos = document.getElementById("tercerInputListaG").value;
 
-            lista2.nombre = prompt("¿Cuál es el nombre de la lista 2?");
-            lista2.candidato = prompt("¿Cuál es el nombre del candidato de " + lista2.nombre + "?");
+lista8.nombre = document.getElementById("inputListaH");
+lista8.candidato = document.getElementById("segudoInputListaH");
+lista8.votos = document.getElementById("tercerInputListaH").value;
 
-            lista3.nombre = prompt("¿Cuál es el nombre de la lista 3?");
-            lista3.candidato = prompt("¿Cuál es el nombre del candidato de " + lista3.nombre + "?");
+lista9.nombre = document.getElementById("inputListaI");
+lista9.candidato = document.getElementById("segudoInputListaI");
+lista9.votos = document.getElementById("tercerInputListaI").value;
 
-            lista4.nombre = prompt("¿Cuál es el nombre de la lista 4?");
-            lista4.candidato = prompt("¿Cuál es el nombre del candidato de " + lista4.nombre + "?");
-        break;
-
-        case 5:
-            lista1.nombre = prompt("¿Cuál es el nombre de la lista 1?");
-            lista1.candidato = prompt("¿Cuál es el nombre del candidato de " + lista1.nombre + "?");
-
-            lista2.nombre = prompt("¿Cuál es el nombre de la lista 2?");
-            lista2.candidato = prompt("¿Cuál es el nombre del candidato de " + lista2.nombre + "?");
-
-            lista3.nombre = prompt("¿Cuál es el nombre de la lista 3?");
-            lista3.candidato = prompt("¿Cuál es el nombre del candidato de " + lista3.nombre + "?");
-
-            lista4.nombre = prompt("¿Cuál es el nombre de la lista 4?");
-            lista4.candidato = prompt("¿Cuál es el nombre del candidato de " + lista4.nombre + "?");
-
-            lista5.nombre = prompt("¿Cuál es el nombre de la lista 5?");
-            lista5.candidato = prompt("¿Cuál es el nombre del candidato de " + lista5.nombre + "?");
-        break;
-    }
-}
-
-numListas();
+lista10.nombre = document.getElementById("inputListaJ");
+lista10.candidato = document.getElementById("segudoInputListaJ");
+lista10.votos = document.getElementById("tercerInputListaJ").value;
 
 //Se crea un Array con los objetos creados anteriormente.
-const arrayListas = [lista1, lista2, lista3, lista4, lista5];
+const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
 
 //A través del método splice, se quitan del array los objetos que no fueron creados.
 arrayListas.splice(listas);
@@ -87,53 +70,9 @@ arrayListas.splice(listas);
 //Console log para chequear que el array sea correcto.
 console.log(arrayListas);
 
-//2 - Una vez que se definen las listas que se presentan con sus nombres de candidatos, se establecen los votos para da cada lista.
-
-//Según la cantidad de listas que se presentan a elecciones definido por el usuario, se implementa una función con un switch el cual le solicita al usuario que establezca los votos conseguidos por cada lista.
-function votosListas (){
-    switch(listas){
-        case 2:
-            lista1.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista1.candidato + " (" + lista1.nombre + ")?"));
-
-            lista2.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista2.candidato + " (" + lista2.nombre + ")?"));
-        break;
-
-        case 3:
-            lista1.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista1.candidato + " (" + lista1.nombre + ")?"));
-
-            lista2.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista2.candidato + " (" + lista2.nombre + ")?"));
-
-            lista3.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista3.candidato + " (" + lista3.nombre + ")?"));
-        break;
-
-        case 4:
-            lista1.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista1.candidato + " (" + lista1.nombre + ")?"));
-
-            lista2.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista2.candidato + " (" + lista2.nombre + ")?"));
-
-            lista3.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista3.candidato + " (" + lista3.nombre + ")?"));
-
-            lista4.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista4.candidato + " (" + lista4.nombre + ")?"));
-        break;
-
-        case 5:
-            lista1.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista1.candidato + " (" + lista1.nombre + ")?"));
-
-            lista2.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista2.candidato + " (" + lista2.nombre + ")?"));
-
-            lista3.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista3.candidato + " (" + lista3.nombre + ")?"));
-
-            lista4.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista4.candidato + " (" + lista4.nombre + ")?"));
-
-            lista5.votos = parseInt(prompt("¿Cuántos votos consiguió " + lista5.candidato + " (" + lista5.nombre + ")?"));
-        break;
-    }
-}
-
-votosListas();
 
 //Se le pregunta al usuario cuantos votos fueron en blanco
-let votosBlancos = parseInt(prompt("¿Cuantos votos en blanco hubo?"));
+let votosBlancos = document.getElementById("votosBlancos").value;
 
 //Se calcula la suma total de votos emitidos.
 let votosTotales = lista1.votos + lista2.votos + lista3.votos + lista4.votos + lista5.votos + votosBlancos;

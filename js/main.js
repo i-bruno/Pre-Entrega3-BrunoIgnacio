@@ -139,7 +139,6 @@ let divListaJ
 let primerInputJ
 let segundoInputJ
 let tercerInputJ
-console.log(cantidadListas);
 
 switch(parseInt(cantidadListas)){
     case 1:
@@ -152,18 +151,22 @@ switch(parseInt(cantidadListas)){
         divListaA.className = "agrupacion";
         divListaA.id = "listaA";
         infoPrincipal.appendChild(divListaA);
-    
+
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
+
         //Segunda lista
         divListaB = document.createElement("div");
         divListaB.className = "agrupacion";
@@ -171,14 +174,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaB);
     
             primerInputB = document.createElement("input");
+            primerInputB.id = "inputListaB"
             primerInputB.setAttribute('placeholder', 'Agrupación...')
             divListaB.appendChild(primerInputB);
     
             segundoInputB = document.createElement("input");
+            segundoInputB.id = "segundoInputListaB";
             segundoInputB.setAttribute('placeholder', 'Candidato...')
             divListaB.appendChild(segundoInputB);
     
             tercerInputB = document.createElement("input");
+            tercerInputB.id = "tercerInputListaB"
             tercerInputB.setAttribute('placeholder', 'Votos')
             divListaB.appendChild(tercerInputB);
     break;
@@ -191,14 +197,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
         
@@ -208,17 +217,21 @@ switch(parseInt(cantidadListas)){
         divListaB.id = "listaB";
         infoPrincipal.appendChild(divListaB);
     
-            primerInputB = document.createElement("input");
-            primerInputB.setAttribute('placeholder', 'Agrupación...')
-            divListaB.appendChild(primerInputB);
-    
-            segundoInputB = document.createElement("input");
-            segundoInputB.setAttribute('placeholder', 'Candidato...')
-            divListaB.appendChild(segundoInputB);
-    
-            tercerInputB = document.createElement("input");
-            tercerInputB.setAttribute('placeholder', 'Votos')
-            divListaB.appendChild(tercerInputB);
+        primerInputB = document.createElement("input");
+        primerInputB.id = "inputListaB"
+        primerInputB.setAttribute('placeholder', 'Agrupación...')
+        divListaB.appendChild(primerInputB);
+
+        segundoInputB = document.createElement("input");
+        segundoInputB.id = "segundoInputListaB";
+        segundoInputB.setAttribute('placeholder', 'Candidato...')
+        divListaB.appendChild(segundoInputB);
+
+        tercerInputB = document.createElement("input");
+        tercerInputB.id = "tercerInputListaB"
+        tercerInputB.setAttribute('placeholder', 'Votos')
+        divListaB.appendChild(tercerInputB);
+
         //Tercer lista
         divListaC = document.createElement("div");
         divListaC.className = "agrupacion";
@@ -226,14 +239,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaC);
             
             primerInputC = document.createElement("input");
+            primerInputC.id = "inputListaC";
             primerInputC.setAttribute('placeholder', 'Agrupación...')
             divListaC.appendChild(primerInputC);
                         
             segundoInputC = document.createElement("input");
+            segundoInputC.id = "segundoInputListaC"; 
             segundoInputC.setAttribute('placeholder', 'Candidato...')
             divListaC.appendChild(segundoInputC);
                         
             tercerInputC = document.createElement("input");
+            tercerInputC.id = "tercerInputListaC";
             tercerInputC.setAttribute('placeholder', 'Votos')
             divListaC.appendChild(tercerInputC);
     break;
@@ -246,14 +262,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
 
@@ -264,14 +283,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaB);
         
             primerInputB = document.createElement("input");
+            primerInputB.id = "inputListaB"
             primerInputB.setAttribute('placeholder', 'Agrupación...')
             divListaB.appendChild(primerInputB);
-        
+    
             segundoInputB = document.createElement("input");
+            segundoInputB.id = "segundoInputListaB";
             segundoInputB.setAttribute('placeholder', 'Candidato...')
             divListaB.appendChild(segundoInputB);
-        
+    
             tercerInputB = document.createElement("input");
+            tercerInputB.id = "tercerInputListaB"
             tercerInputB.setAttribute('placeholder', 'Votos')
             divListaB.appendChild(tercerInputB);
 
@@ -281,17 +303,20 @@ switch(parseInt(cantidadListas)){
         divListaC.id = "listaC";
         infoPrincipal.appendChild(divListaC);
                     
-            primerInputC = document.createElement("input");
-            primerInputC.setAttribute('placeholder', 'Agrupación...')
-            divListaC.appendChild(primerInputC);
-                                
-            segundoInputC = document.createElement("input");
-            segundoInputC.setAttribute('placeholder', 'Candidato...')
-            divListaC.appendChild(segundoInputC);
-                                
-            tercerInputC = document.createElement("input");
-            tercerInputC.setAttribute('placeholder', 'Votos')
-            divListaC.appendChild(tercerInputC);
+        primerInputC = document.createElement("input");
+        primerInputC.id = "inputListaC";
+        primerInputC.setAttribute('placeholder', 'Agrupación...')
+        divListaC.appendChild(primerInputC);
+                    
+        segundoInputC = document.createElement("input");
+        segundoInputC.id = "segundoInputListaC"; 
+        segundoInputC.setAttribute('placeholder', 'Candidato...')
+        divListaC.appendChild(segundoInputC);
+                    
+        tercerInputC = document.createElement("input");
+        tercerInputC = "tercerInputListaC";
+        tercerInputC.setAttribute('placeholder', 'Votos')
+        divListaC.appendChild(tercerInputC);
 
             //Cuarta lista        
         divListaD = document.createElement("div");
@@ -300,14 +325,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaD);
         
             primerInputD = document.createElement("input");
+            primerInputD.id = "inputListaD"
             primerInputD.setAttribute('placeholder', 'Agrupación...')
             divListaD.appendChild(primerInputD);
             
             segundoInputD = document.createElement("input");
+            segundoInputD.id = "segundoInputListaD"
             segundoInputD.setAttribute('placeholder', 'Candidato...')
             divListaD.appendChild(segundoInputD);
             
             tercerInputD = document.createElement("input");
+            tercerInputD.id = "tercerInputListaD";
             tercerInputD.setAttribute('placeholder', 'Votos')
             divListaD.appendChild(tercerInputD);
     break;
@@ -319,14 +347,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
 
@@ -335,17 +366,20 @@ switch(parseInt(cantidadListas)){
         divListaB.id = "listaB";
         infoPrincipal.appendChild(divListaB);
         
-            primerInputB = document.createElement("input");
-            primerInputB.setAttribute('placeholder', 'Agrupación...')
-            divListaB.appendChild(primerInputB);
-        
-            segundoInputB = document.createElement("input");
-            segundoInputB.setAttribute('placeholder', 'Candidato...')
-            divListaB.appendChild(segundoInputB);
-        
-            tercerInputB = document.createElement("input");
-            tercerInputB.setAttribute('placeholder', 'Votos')
-            divListaB.appendChild(tercerInputB);
+        primerInputB = document.createElement("input");
+        primerInputB.id = "inputListaB"
+        primerInputB.setAttribute('placeholder', 'Agrupación...')
+        divListaB.appendChild(primerInputB);
+
+        segundoInputB = document.createElement("input");
+        segundoInputB.id = "segundoInputListaB";
+        segundoInputB.setAttribute('placeholder', 'Candidato...')
+        divListaB.appendChild(segundoInputB);
+
+        tercerInputB = document.createElement("input");
+        tercerInputB.id = "tercerInputListaB"
+        tercerInputB.setAttribute('placeholder', 'Votos')
+        divListaB.appendChild(tercerInputB);
 
         //Tercer lista
         divListaC = document.createElement("div");
@@ -353,17 +387,20 @@ switch(parseInt(cantidadListas)){
         divListaC.id = "listaC";
         infoPrincipal.appendChild(divListaC);
                             
-            primerInputC = document.createElement("input");
-            primerInputC.setAttribute('placeholder', 'Agrupación...')
-            divListaC.appendChild(primerInputC);
-                                        
-            segundoInputC = document.createElement("input");
-            segundoInputC.setAttribute('placeholder', 'Candidato...')
-            divListaC.appendChild(segundoInputC);
-                                        
-            tercerInputC = document.createElement("input");
-            tercerInputC.setAttribute('placeholder', 'Votos')
-            divListaC.appendChild(tercerInputC);
+        primerInputC = document.createElement("input");
+        primerInputC.id = "inputListaC";
+        primerInputC.setAttribute('placeholder', 'Agrupación...')
+        divListaC.appendChild(primerInputC);
+                    
+        segundoInputC = document.createElement("input");
+        segundoInputC.id = "segundoInputListaC"; 
+        segundoInputC.setAttribute('placeholder', 'Candidato...')
+        divListaC.appendChild(segundoInputC);
+                    
+        tercerInputC = document.createElement("input");
+        tercerInputC.id = "tercerInputListaC";
+        tercerInputC.setAttribute('placeholder', 'Votos')
+        divListaC.appendChild(tercerInputC);
 
             //Cuarta lista        
         divListaD = document.createElement("div");
@@ -371,17 +408,20 @@ switch(parseInt(cantidadListas)){
         divListaD.id = "listaD";
         infoPrincipal.appendChild(divListaD);
         
-            primerInputD = document.createElement("input");
-            primerInputD.setAttribute('placeholder', 'Agrupación...')
-            divListaD.appendChild(primerInputD);
-            
-            segundoInputD = document.createElement("input");
-            segundoInputD.setAttribute('placeholder', 'Candidato...')
-            divListaD.appendChild(segundoInputD);
-            
-            tercerInputD = document.createElement("input");
-            tercerInputD.setAttribute('placeholder', 'Votos')
-            divListaD.appendChild(tercerInputD);
+        primerInputD = document.createElement("input");
+        primerInputD.id = "inputListaD"
+        primerInputD.setAttribute('placeholder', 'Agrupación...')
+        divListaD.appendChild(primerInputD);
+        
+        segundoInputD = document.createElement("input");
+        segundoInputD.id = "segundoInputListaD"
+        segundoInputD.setAttribute('placeholder', 'Candidato...')
+        divListaD.appendChild(segundoInputD);
+        
+        tercerInputD = document.createElement("input");
+        tercerInputD.id = "tercerInputListaD";
+        tercerInputD.setAttribute('placeholder', 'Votos')
+        divListaD.appendChild(tercerInputD);
 
             //Quinta lista
         divListaE = document.createElement("div");
@@ -390,14 +430,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaE);
         
             primerInputE = document.createElement("input");
+            primerInputE.id = "inputListaE";
             primerInputE.setAttribute('placeholder', 'Agrupación...')
             divListaE.appendChild(primerInputE);
             
             segundoInputE = document.createElement("input");
+            segundoInputE.id = "segundoInputListaE";
             segundoInputE.setAttribute('placeholder', 'Candidato...')
             divListaE.appendChild(segundoInputE);
             
             tercerInputE = document.createElement("input");
+            tercerInputE.id = "tercerInputListaE";
             tercerInputE.setAttribute('placeholder', 'Votos')
             divListaE.appendChild(tercerInputE);
     break;
@@ -409,14 +452,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
 
@@ -425,17 +471,20 @@ switch(parseInt(cantidadListas)){
         divListaB.id = "listaB";
         infoPrincipal.appendChild(divListaB);
     
-            primerInputB = document.createElement("input");
-            primerInputB.setAttribute('placeholder', 'Agrupación...')
-            divListaB.appendChild(primerInputB);
-    
-            segundoInputB = document.createElement("input");
-            segundoInputB.setAttribute('placeholder', 'Candidato...')
-            divListaB.appendChild(segundoInputB);
-    
-            tercerInputB = document.createElement("input");
-            tercerInputB.setAttribute('placeholder', 'Votos')
-            divListaB.appendChild(tercerInputB);
+        primerInputB = document.createElement("input");
+        primerInputB.id = "inputListaB"
+        primerInputB.setAttribute('placeholder', 'Agrupación...')
+        divListaB.appendChild(primerInputB);
+
+        segundoInputB = document.createElement("input");
+        segundoInputB.id = "segundoInputListaB";
+        segundoInputB.setAttribute('placeholder', 'Candidato...')
+        divListaB.appendChild(segundoInputB);
+
+        tercerInputB = document.createElement("input");
+        tercerInputB.id = "tercerInputListaB"
+        tercerInputB.setAttribute('placeholder', 'Votos')
+        divListaB.appendChild(tercerInputB);
 
                     //Tercer lista
         divListaC = document.createElement("div");
@@ -443,17 +492,20 @@ switch(parseInt(cantidadListas)){
         divListaC.id = "listaC";
         infoPrincipal.appendChild(divListaC);
                             
-            primerInputC = document.createElement("input");
-            primerInputC.setAttribute('placeholder', 'Agrupación...')
-            divListaC.appendChild(primerInputC);
-                                        
-            segundoInputC = document.createElement("input");
-            segundoInputC.setAttribute('placeholder', 'Candidato...')
-            divListaC.appendChild(segundoInputC);
-                                        
-            tercerInputC = document.createElement("input");
-            tercerInputC.setAttribute('placeholder', 'Votos')
-            divListaC.appendChild(tercerInputC);
+        primerInputC = document.createElement("input");
+        primerInputC.id = "inputListaC";
+        primerInputC.setAttribute('placeholder', 'Agrupación...')
+        divListaC.appendChild(primerInputC);
+                    
+        segundoInputC = document.createElement("input");
+        segundoInputC.id = "segundoInputListaC"; 
+        segundoInputC.setAttribute('placeholder', 'Candidato...')
+        divListaC.appendChild(segundoInputC);
+                    
+        tercerInputC = document.createElement("input");
+        tercerInputC.id = "tercerInputListaC";
+        tercerInputC.setAttribute('placeholder', 'Votos')
+        divListaC.appendChild(tercerInputC);
 
             //Cuarta lista        
         divListaD = document.createElement("div");
@@ -461,17 +513,20 @@ switch(parseInt(cantidadListas)){
         divListaD.id = "listaD";
         infoPrincipal.appendChild(divListaD);
         
-            primerInputD = document.createElement("input");
-            primerInputD.setAttribute('placeholder', 'Agrupación...')
-            divListaD.appendChild(primerInputD);
-            
-            segundoInputD = document.createElement("input");
-            segundoInputD.setAttribute('placeholder', 'Candidato...')
-            divListaD.appendChild(segundoInputD);
-            
-            tercerInputD = document.createElement("input");
-            tercerInputD.setAttribute('placeholder', 'Votos')
-            divListaD.appendChild(tercerInputD);
+        primerInputD = document.createElement("input");
+        primerInputD.id = "inputListaD"
+        primerInputD.setAttribute('placeholder', 'Agrupación...')
+        divListaD.appendChild(primerInputD);
+        
+        segundoInputD = document.createElement("input");
+        segundoInputD.id = "segundoInputListaD"
+        segundoInputD.setAttribute('placeholder', 'Candidato...')
+        divListaD.appendChild(segundoInputD);
+        
+        tercerInputD = document.createElement("input");
+        tercerInputD.id = "tercerInputListaD";
+        tercerInputD.setAttribute('placeholder', 'Votos')
+        divListaD.appendChild(tercerInputD);
 
             //Quinta lista
         divListaE = document.createElement("div");
@@ -479,17 +534,20 @@ switch(parseInt(cantidadListas)){
         divListaE.id = "listaE";
         infoPrincipal.appendChild(divListaE);
         
-            primerInputE = document.createElement("input");
-            primerInputE.setAttribute('placeholder', 'Agrupación...')
-            divListaE.appendChild(primerInputE);
-            
-            segundoInputE = document.createElement("input");
-            segundoInputE.setAttribute('placeholder', 'Candidato...')
-            divListaE.appendChild(segundoInputE);
-            
-            tercerInputE = document.createElement("input");
-            tercerInputE.setAttribute('placeholder', 'Votos')
-            divListaE.appendChild(tercerInputE);
+        primerInputE = document.createElement("input");
+        primerInputE.id = "inputListaE";
+        primerInputE.setAttribute('placeholder', 'Agrupación...')
+        divListaE.appendChild(primerInputE);
+        
+        segundoInputE = document.createElement("input");
+        segundoInputE.id = "segundoInputListaE";
+        segundoInputE.setAttribute('placeholder', 'Candidato...')
+        divListaE.appendChild(segundoInputE);
+        
+        tercerInputE = document.createElement("input");
+        tercerInputE.id = "tercerInputListaE";
+        tercerInputE.setAttribute('placeholder', 'Votos')
+        divListaE.appendChild(tercerInputE);
 
             //Sexta lista
         divListaF = document.createElement("div");
@@ -498,14 +556,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaF);
         
             primerInputF = document.createElement("input");
+            primerInputF.id = "inputListaF";
             primerInputF.setAttribute('placeholder', 'Agrupación...')
             divListaF.appendChild(primerInputF);
             
             segundoInputF = document.createElement("input");
+            segundoInputF.id = "segundoInputListaF";
             segundoInputF.setAttribute('placeholder', 'Candidato...')
             divListaF.appendChild(segundoInputF);
             
             tercerInputF = document.createElement("input");
+            tercerInputF.id = "tercerInputListaF";
             tercerInputF.setAttribute('placeholder', 'Votos')
             divListaF.appendChild(tercerInputF);
     break;
@@ -517,14 +578,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
 
@@ -533,17 +597,20 @@ switch(parseInt(cantidadListas)){
         divListaB.id = "listaB";
         infoPrincipal.appendChild(divListaB);
         
-            primerInputB = document.createElement("input");
-            primerInputB.setAttribute('placeholder', 'Agrupación...')
-            divListaB.appendChild(primerInputB);
-        
-            segundoInputB = document.createElement("input");
-            segundoInputB.setAttribute('placeholder', 'Candidato...')
-            divListaB.appendChild(segundoInputB);
-        
-            tercerInputB = document.createElement("input");
-            tercerInputB.setAttribute('placeholder', 'Votos')
-            divListaB.appendChild(tercerInputB);
+        primerInputB = document.createElement("input");
+        primerInputB.id = "inputListaB"
+        primerInputB.setAttribute('placeholder', 'Agrupación...')
+        divListaB.appendChild(primerInputB);
+
+        segundoInputB = document.createElement("input");
+        segundoInputB.id = "segundoInputListaB";
+        segundoInputB.setAttribute('placeholder', 'Candidato...')
+        divListaB.appendChild(segundoInputB);
+
+        tercerInputB = document.createElement("input");
+        tercerInputB.id = "tercerInputListaB"
+        tercerInputB.setAttribute('placeholder', 'Votos')
+        divListaB.appendChild(tercerInputB);
 
                     //Tercer lista
         divListaC = document.createElement("div");
@@ -551,17 +618,20 @@ switch(parseInt(cantidadListas)){
         divListaC.id = "listaC";
         infoPrincipal.appendChild(divListaC);
                             
-            primerInputC = document.createElement("input");
-            primerInputC.setAttribute('placeholder', 'Agrupación...')
-            divListaC.appendChild(primerInputC);
-                                        
-            segundoInputC = document.createElement("input");
-            segundoInputC.setAttribute('placeholder', 'Candidato...')
-            divListaC.appendChild(segundoInputC);
-                                        
-            tercerInputC = document.createElement("input");
-            tercerInputC.setAttribute('placeholder', 'Votos')
-            divListaC.appendChild(tercerInputC);
+        primerInputC = document.createElement("input");
+        primerInputC.id = "inputListaC";
+        primerInputC.setAttribute('placeholder', 'Agrupación...')
+        divListaC.appendChild(primerInputC);
+                    
+        segundoInputC = document.createElement("input");
+        segundoInputC.id = "segundoInputListaC"; 
+        segundoInputC.setAttribute('placeholder', 'Candidato...')
+        divListaC.appendChild(segundoInputC);
+                    
+        tercerInputC = document.createElement("input");
+        tercerInputC.id = "tercerInputListaC";
+        tercerInputC.setAttribute('placeholder', 'Votos')
+        divListaC.appendChild(tercerInputC);
 
             //Cuarta lista        
         divListaD = document.createElement("div");
@@ -569,17 +639,20 @@ switch(parseInt(cantidadListas)){
         divListaD.id = "listaD";
         infoPrincipal.appendChild(divListaD);
         
-            primerInputD = document.createElement("input");
-            primerInputD.setAttribute('placeholder', 'Agrupación...')
-            divListaD.appendChild(primerInputD);
-            
-            segundoInputD = document.createElement("input");
-            segundoInputD.setAttribute('placeholder', 'Candidato...')
-            divListaD.appendChild(segundoInputD);
-            
-            tercerInputD = document.createElement("input");
-            tercerInputD.setAttribute('placeholder', 'Votos')
-            divListaD.appendChild(tercerInputD);
+        primerInputD = document.createElement("input");
+        primerInputD.id = "inputListaD"
+        primerInputD.setAttribute('placeholder', 'Agrupación...')
+        divListaD.appendChild(primerInputD);
+        
+        segundoInputD = document.createElement("input");
+        segundoInputD.id = "segundoInputListaD"
+        segundoInputD.setAttribute('placeholder', 'Candidato...')
+        divListaD.appendChild(segundoInputD);
+        
+        tercerInputD = document.createElement("input");
+        tercerInputD.id = "tercerInputListaD";
+        tercerInputD.setAttribute('placeholder', 'Votos')
+        divListaD.appendChild(tercerInputD);
 
             //Quinta lista
         divListaE = document.createElement("div");
@@ -587,17 +660,20 @@ switch(parseInt(cantidadListas)){
         divListaE.id = "listaE";
         infoPrincipal.appendChild(divListaE);
         
-            primerInputE = document.createElement("input");
-            primerInputE.setAttribute('placeholder', 'Agrupación...')
-            divListaE.appendChild(primerInputE);
-            
-            segundoInputE = document.createElement("input");
-            segundoInputE.setAttribute('placeholder', 'Candidato...')
-            divListaE.appendChild(segundoInputE);
-            
-            tercerInputE = document.createElement("input");
-            tercerInputE.setAttribute('placeholder', 'Votos')
-            divListaE.appendChild(tercerInputE);
+        primerInputE = document.createElement("input");
+        primerInputE.id = "inputListaE";
+        primerInputE.setAttribute('placeholder', 'Agrupación...')
+        divListaE.appendChild(primerInputE);
+        
+        segundoInputE = document.createElement("input");
+        segundoInputE.id = "segundoInputListaE";
+        segundoInputE.setAttribute('placeholder', 'Candidato...')
+        divListaE.appendChild(segundoInputE);
+        
+        tercerInputE = document.createElement("input");
+        tercerInputE.id = "tercerInputListaE";
+        tercerInputE.setAttribute('placeholder', 'Votos')
+        divListaE.appendChild(tercerInputE);
 
             //Sexta lista
         divListaF = document.createElement("div");
@@ -605,17 +681,20 @@ switch(parseInt(cantidadListas)){
         divListaF.id = "listaF";
         infoPrincipal.appendChild(divListaF);
         
-            primerInputF = document.createElement("input");
-            primerInputF.setAttribute('placeholder', 'Agrupación...')
-            divListaF.appendChild(primerInputF);
-            
-            segundoInputF = document.createElement("input");
-            segundoInputF.setAttribute('placeholder', 'Candidato...')
-            divListaF.appendChild(segundoInputF);
-            
-            tercerInputF = document.createElement("input");
-            tercerInputF.setAttribute('placeholder', 'Votos')
-            divListaF.appendChild(tercerInputF);
+        primerInputF = document.createElement("input");
+        primerInputF.id = "inputListaF";
+        primerInputF.setAttribute('placeholder', 'Agrupación...')
+        divListaF.appendChild(primerInputF);
+        
+        segundoInputF = document.createElement("input");
+        segundoInputF.id = "segundoInputListaF";
+        segundoInputF.setAttribute('placeholder', 'Candidato...')
+        divListaF.appendChild(segundoInputF);
+        
+        tercerInputF = document.createElement("input");
+        tercerInputF.id = "tercerInputListaF";
+        tercerInputF.setAttribute('placeholder', 'Votos')
+        divListaF.appendChild(tercerInputF);
 
             //Septima lista
         divListaG = document.createElement("div");
@@ -624,14 +703,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaG);
         
             primerInputG = document.createElement("input");
+            primerInputG.id = "inputListaG";
             primerInputG.setAttribute('placeholder', 'Agrupación...')
             divListaG.appendChild(primerInputG);
             
             segundoInputG = document.createElement("input");
+            segundoInputG.id = "segundoInputListaG";
             segundoInputG.setAttribute('placeholder', 'Candidato...')
             divListaG.appendChild(segundoInputG);
             
             tercerInputG = document.createElement("input");
+            tercerInputG.id = "tercerInputListaG";
             tercerInputG.setAttribute('placeholder', 'Votos')
             divListaG.appendChild(tercerInputG);
     break;
@@ -643,14 +725,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
 
@@ -659,17 +744,20 @@ switch(parseInt(cantidadListas)){
         divListaB.id = "listaB";
         infoPrincipal.appendChild(divListaB);
         
-            primerInputB = document.createElement("input");
-            primerInputB.setAttribute('placeholder', 'Agrupación...')
-            divListaB.appendChild(primerInputB);
-        
-            segundoInputB = document.createElement("input");
-            segundoInputB.setAttribute('placeholder', 'Candidato...')
-            divListaB.appendChild(segundoInputB);
-        
-            tercerInputB = document.createElement("input");
-            tercerInputB.setAttribute('placeholder', 'Votos')
-            divListaB.appendChild(tercerInputB);
+        primerInputB = document.createElement("input");
+        primerInputB.id = "inputListaB"
+        primerInputB.setAttribute('placeholder', 'Agrupación...')
+        divListaB.appendChild(primerInputB);
+
+        segundoInputB = document.createElement("input");
+        segundoInputB.id = "segundoInputListaB";
+        segundoInputB.setAttribute('placeholder', 'Candidato...')
+        divListaB.appendChild(segundoInputB);
+
+        tercerInputB = document.createElement("input");
+        tercerInputB.id = "tercerInputListaB"
+        tercerInputB.setAttribute('placeholder', 'Votos')
+        divListaB.appendChild(tercerInputB);
 
                     //Tercer lista
         divListaC = document.createElement("div");
@@ -677,17 +765,20 @@ switch(parseInt(cantidadListas)){
         divListaC.id = "listaC";
         infoPrincipal.appendChild(divListaC);
                             
-            primerInputC = document.createElement("input");
-            primerInputC.setAttribute('placeholder', 'Agrupación...')
-            divListaC.appendChild(primerInputC);
-                                        
-            segundoInputC = document.createElement("input");
-            segundoInputC.setAttribute('placeholder', 'Candidato...')
-            divListaC.appendChild(segundoInputC);
-                                        
-            tercerInputC = document.createElement("input");
-            tercerInputC.setAttribute('placeholder', 'Votos')
-            divListaC.appendChild(tercerInputC);
+        primerInputC = document.createElement("input");
+        primerInputC.id = "inputListaC";
+        primerInputC.setAttribute('placeholder', 'Agrupación...')
+        divListaC.appendChild(primerInputC);
+                    
+        segundoInputC = document.createElement("input");
+        segundoInputC.id = "segundoInputListaC"; 
+        segundoInputC.setAttribute('placeholder', 'Candidato...')
+        divListaC.appendChild(segundoInputC);
+                    
+        tercerInputC = document.createElement("input");
+        tercerInputC.id = "tercerInputListaC";
+        tercerInputC.setAttribute('placeholder', 'Votos')
+        divListaC.appendChild(tercerInputC);
 
             //Cuarta lista        
         divListaD = document.createElement("div");
@@ -695,17 +786,20 @@ switch(parseInt(cantidadListas)){
         divListaD.id = "listaD";
         infoPrincipal.appendChild(divListaD);
         
-            primerInputD = document.createElement("input");
-            primerInputD.setAttribute('placeholder', 'Agrupación...')
-            divListaD.appendChild(primerInputD);
-            
-            segundoInputD = document.createElement("input");
-            segundoInputD.setAttribute('placeholder', 'Candidato...')
-            divListaD.appendChild(segundoInputD);
-            
-            tercerInputD = document.createElement("input");
-            tercerInputD.setAttribute('placeholder', 'Votos')
-            divListaD.appendChild(tercerInputD);
+        primerInputD = document.createElement("input");
+        primerInputD.id = "inputListaD"
+        primerInputD.setAttribute('placeholder', 'Agrupación...')
+        divListaD.appendChild(primerInputD);
+        
+        segundoInputD = document.createElement("input");
+        segundoInputD.id = "segundoInputListaD"
+        segundoInputD.setAttribute('placeholder', 'Candidato...')
+        divListaD.appendChild(segundoInputD);
+        
+        tercerInputD = document.createElement("input");
+        tercerInputD.id = "tercerInputListaD";
+        tercerInputD.setAttribute('placeholder', 'Votos')
+        divListaD.appendChild(tercerInputD);
 
             //Quinta lista
         divListaE = document.createElement("div");
@@ -713,17 +807,20 @@ switch(parseInt(cantidadListas)){
         divListaE.id = "listaE";
         infoPrincipal.appendChild(divListaE);
         
-            primerInputE = document.createElement("input");
-            primerInputE.setAttribute('placeholder', 'Agrupación...')
-            divListaE.appendChild(primerInputE);
-            
-            segundoInputE = document.createElement("input");
-            segundoInputE.setAttribute('placeholder', 'Candidato...')
-            divListaE.appendChild(segundoInputE);
-            
-            tercerInputE = document.createElement("input");
-            tercerInputE.setAttribute('placeholder', 'Votos')
-            divListaE.appendChild(tercerInputE);
+        primerInputE = document.createElement("input");
+        primerInputE.id = "inputListaE";
+        primerInputE.setAttribute('placeholder', 'Agrupación...')
+        divListaE.appendChild(primerInputE);
+        
+        segundoInputE = document.createElement("input");
+        segundoInputE.id = "segundoInputListaE";
+        segundoInputE.setAttribute('placeholder', 'Candidato...')
+        divListaE.appendChild(segundoInputE);
+        
+        tercerInputE = document.createElement("input");
+        tercerInputE.id = "tercerInputListaE";
+        tercerInputE.setAttribute('placeholder', 'Votos')
+        divListaE.appendChild(tercerInputE);
 
             //Sexta lista
         divListaF = document.createElement("div");
@@ -731,17 +828,20 @@ switch(parseInt(cantidadListas)){
         divListaF.id = "listaF";
         infoPrincipal.appendChild(divListaF);
         
-            primerInputF = document.createElement("input");
-            primerInputF.setAttribute('placeholder', 'Agrupación...')
-            divListaF.appendChild(primerInputF);
-            
-            segundoInputF = document.createElement("input");
-            segundoInputF.setAttribute('placeholder', 'Candidato...')
-            divListaF.appendChild(segundoInputF);
-            
-            tercerInputF = document.createElement("input");
-            tercerInputF.setAttribute('placeholder', 'Votos')
-            divListaF.appendChild(tercerInputF);
+        primerInputF = document.createElement("input");
+        primerInputF.id = "inputListaF";
+        primerInputF.setAttribute('placeholder', 'Agrupación...')
+        divListaF.appendChild(primerInputF);
+        
+        segundoInputF = document.createElement("input");
+        segundoInputF.id = "segundoInputListaF";
+        segundoInputF.setAttribute('placeholder', 'Candidato...')
+        divListaF.appendChild(segundoInputF);
+        
+        tercerInputF = document.createElement("input");
+        tercerInputF.id = "tercerInputListaF";
+        tercerInputF.setAttribute('placeholder', 'Votos')
+        divListaF.appendChild(tercerInputF);
 
             //Septima lista
         divListaG = document.createElement("div");
@@ -749,17 +849,20 @@ switch(parseInt(cantidadListas)){
         divListaG.id = "listaG";
         infoPrincipal.appendChild(divListaG);
         
-            primerInputG = document.createElement("input");
-            primerInputG.setAttribute('placeholder', 'Agrupación...')
-            divListaG.appendChild(primerInputG);
-            
-            segundoInputG = document.createElement("input");
-            segundoInputG.setAttribute('placeholder', 'Candidato...')
-            divListaG.appendChild(segundoInputG);
-            
-            tercerInputG = document.createElement("input");
-            tercerInputG.setAttribute('placeholder', 'Votos')
-            divListaG.appendChild(tercerInputG);
+        primerInputG = document.createElement("input");
+        primerInputG.id = "inputListaG";
+        primerInputG.setAttribute('placeholder', 'Agrupación...')
+        divListaG.appendChild(primerInputG);
+        
+        segundoInputG = document.createElement("input");
+        segundoInputG.id = "segundoInputListaG";
+        segundoInputG.setAttribute('placeholder', 'Candidato...')
+        divListaG.appendChild(segundoInputG);
+        
+        tercerInputG = document.createElement("input");
+        tercerInputG.id = "tercerInputListaG";
+        tercerInputG.setAttribute('placeholder', 'Votos')
+        divListaG.appendChild(tercerInputG);
 
             //Octava lista
         divListaH = document.createElement("div");
@@ -768,14 +871,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaH);
         
             primerInputH = document.createElement("input");
+            primerInputH.id = "inputListaH";
             primerInputH.setAttribute('placeholder', 'Agrupación...')
             divListaH.appendChild(primerInputH);
             
             segundoInputH = document.createElement("input");
+            segundoInputH.id = "segundoInputListaH";
             segundoInputH.setAttribute('placeholder', 'Candidato...')
             divListaH.appendChild(segundoInputH);
             
             tercerInputH = document.createElement("input");
+            tercerInputH.id = "tercerInputListaH";
             tercerInputH.setAttribute('placeholder', 'Votos')
             divListaH.appendChild(tercerInputH);
     break;
@@ -787,14 +893,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
 
@@ -803,17 +912,20 @@ switch(parseInt(cantidadListas)){
         divListaB.id = "listaB";
         infoPrincipal.appendChild(divListaB);
         
-            primerInputB = document.createElement("input");
-            primerInputB.setAttribute('placeholder', 'Agrupación...')
-            divListaB.appendChild(primerInputB);
-        
-            segundoInputB = document.createElement("input");
-            segundoInputB.setAttribute('placeholder', 'Candidato...')
-            divListaB.appendChild(segundoInputB);
-        
-            tercerInputB = document.createElement("input");
-            tercerInputB.setAttribute('placeholder', 'Votos')
-            divListaB.appendChild(tercerInputB);
+        primerInputB = document.createElement("input");
+        primerInputB.id = "inputListaB"
+        primerInputB.setAttribute('placeholder', 'Agrupación...')
+        divListaB.appendChild(primerInputB);
+
+        segundoInputB = document.createElement("input");
+        segundoInputB.id = "segundoInputListaB";
+        segundoInputB.setAttribute('placeholder', 'Candidato...')
+        divListaB.appendChild(segundoInputB);
+
+        tercerInputB = document.createElement("input");
+        tercerInputB.id = "tercerInputListaB"
+        tercerInputB.setAttribute('placeholder', 'Votos')
+        divListaB.appendChild(tercerInputB);
 
                     //Tercer lista
         divListaC = document.createElement("div");
@@ -821,17 +933,20 @@ switch(parseInt(cantidadListas)){
         divListaC.id = "listaC";
         infoPrincipal.appendChild(divListaC);
                             
-            primerInputC = document.createElement("input");
-            primerInputC.setAttribute('placeholder', 'Agrupación...')
-            divListaC.appendChild(primerInputC);
-                                        
-            segundoInputC = document.createElement("input");
-            segundoInputC.setAttribute('placeholder', 'Candidato...')
-            divListaC.appendChild(segundoInputC);
-                                        
-            tercerInputC = document.createElement("input");
-            tercerInputC.setAttribute('placeholder', 'Votos')
-            divListaC.appendChild(tercerInputC);
+        primerInputC = document.createElement("input");
+        primerInputC.id = "inputListaC";
+        primerInputC.setAttribute('placeholder', 'Agrupación...')
+        divListaC.appendChild(primerInputC);
+                    
+        segundoInputC = document.createElement("input");
+        segundoInputC.id = "segundoInputListaC"; 
+        segundoInputC.setAttribute('placeholder', 'Candidato...')
+        divListaC.appendChild(segundoInputC);
+                    
+        tercerInputC = document.createElement("input");
+        tercerInputC.id = "tercerInputListaC";
+        tercerInputC.setAttribute('placeholder', 'Votos')
+        divListaC.appendChild(tercerInputC);
 
             //Cuarta lista        
         divListaD = document.createElement("div");
@@ -839,17 +954,20 @@ switch(parseInt(cantidadListas)){
         divListaD.id = "listaD";
         infoPrincipal.appendChild(divListaD);
         
-            primerInputD = document.createElement("input");
-            primerInputD.setAttribute('placeholder', 'Agrupación...')
-            divListaD.appendChild(primerInputD);
-            
-            segundoInputD = document.createElement("input");
-            segundoInputD.setAttribute('placeholder', 'Candidato...')
-            divListaD.appendChild(segundoInputD);
-            
-            tercerInputD = document.createElement("input");
-            tercerInputD.setAttribute('placeholder', 'Votos')
-            divListaD.appendChild(tercerInputD);
+        primerInputD = document.createElement("input");
+        primerInputD.id = "inputListaD"
+        primerInputD.setAttribute('placeholder', 'Agrupación...')
+        divListaD.appendChild(primerInputD);
+        
+        segundoInputD = document.createElement("input");
+        segundoInputD.id = "segundoInputListaD"
+        segundoInputD.setAttribute('placeholder', 'Candidato...')
+        divListaD.appendChild(segundoInputD);
+        
+        tercerInputD = document.createElement("input");
+        tercerInputD.id = "tercerInputListaD";
+        tercerInputD.setAttribute('placeholder', 'Votos')
+        divListaD.appendChild(tercerInputD);
 
             //Quinta lista
         divListaE = document.createElement("div");
@@ -857,17 +975,20 @@ switch(parseInt(cantidadListas)){
         divListaE.id = "listaE";
         infoPrincipal.appendChild(divListaE);
         
-            primerInputE = document.createElement("input");
-            primerInputE.setAttribute('placeholder', 'Agrupación...')
-            divListaE.appendChild(primerInputE);
-            
-            segundoInputE = document.createElement("input");
-            segundoInputE.setAttribute('placeholder', 'Candidato...')
-            divListaE.appendChild(segundoInputE);
-            
-            tercerInputE = document.createElement("input");
-            tercerInputE.setAttribute('placeholder', 'Votos')
-            divListaE.appendChild(tercerInputE);
+        primerInputE = document.createElement("input");
+        primerInputE.id = "inputListaE";
+        primerInputE.setAttribute('placeholder', 'Agrupación...')
+        divListaE.appendChild(primerInputE);
+        
+        segundoInputE = document.createElement("input");
+        segundoInputE.id = "segundoInputListaE";
+        segundoInputE.setAttribute('placeholder', 'Candidato...')
+        divListaE.appendChild(segundoInputE);
+        
+        tercerInputE = document.createElement("input");
+        tercerInputE.id = "tercerInputListaE";
+        tercerInputE.setAttribute('placeholder', 'Votos')
+        divListaE.appendChild(tercerInputE);
 
             //Sexta lista
         divListaF = document.createElement("div");
@@ -875,17 +996,20 @@ switch(parseInt(cantidadListas)){
         divListaF.id = "listaF";
         infoPrincipal.appendChild(divListaF);
         
-            primerInputF = document.createElement("input");
-            primerInputF.setAttribute('placeholder', 'Agrupación...')
-            divListaF.appendChild(primerInputF);
-            
-            segundoInputF = document.createElement("input");
-            segundoInputF.setAttribute('placeholder', 'Candidato...')
-            divListaF.appendChild(segundoInputF);
-            
-            tercerInputF = document.createElement("input");
-            tercerInputF.setAttribute('placeholder', 'Votos')
-            divListaF.appendChild(tercerInputF);
+        primerInputF = document.createElement("input");
+        primerInputF.id = "inputListaF";
+        primerInputF.setAttribute('placeholder', 'Agrupación...')
+        divListaF.appendChild(primerInputF);
+        
+        segundoInputF = document.createElement("input");
+        segundoInputF.id = "segundoInputListaF";
+        segundoInputF.setAttribute('placeholder', 'Candidato...')
+        divListaF.appendChild(segundoInputF);
+        
+        tercerInputF = document.createElement("input");
+        tercerInputF.id = "tercerInputListaF";
+        tercerInputF.setAttribute('placeholder', 'Votos')
+        divListaF.appendChild(tercerInputF);
 
             //Septima lista
         divListaG = document.createElement("div");
@@ -893,17 +1017,20 @@ switch(parseInt(cantidadListas)){
         divListaG.id = "listaG";
         infoPrincipal.appendChild(divListaG);
         
-            primerInputG = document.createElement("input");
-            primerInputG.setAttribute('placeholder', 'Agrupación...')
-            divListaG.appendChild(primerInputG);
-            
-            segundoInputG = document.createElement("input");
-            segundoInputG.setAttribute('placeholder', 'Candidato...')
-            divListaG.appendChild(segundoInputG);
-            
-            tercerInputG = document.createElement("input");
-            tercerInputG.setAttribute('placeholder', 'Votos')
-            divListaG.appendChild(tercerInputG);
+        primerInputG = document.createElement("input");
+        primerInputG.id = "inputListaG";
+        primerInputG.setAttribute('placeholder', 'Agrupación...')
+        divListaG.appendChild(primerInputG);
+        
+        segundoInputG = document.createElement("input");
+        segundoInputG.id = "segundoInputListaG";
+        segundoInputG.setAttribute('placeholder', 'Candidato...')
+        divListaG.appendChild(segundoInputG);
+        
+        tercerInputG = document.createElement("input");
+        tercerInputG.id = "tercerInputListaG";
+        tercerInputG.setAttribute('placeholder', 'Votos')
+        divListaG.appendChild(tercerInputG);
 
             //Octava lista
         divListaH = document.createElement("div");
@@ -911,17 +1038,20 @@ switch(parseInt(cantidadListas)){
         divListaH.id = "listaH";
         infoPrincipal.appendChild(divListaH);
         
-            primerInputH = document.createElement("input");
-            primerInputH.setAttribute('placeholder', 'Agrupación...')
-            divListaH.appendChild(primerInputH);
-            
-            segundoInputH = document.createElement("input");
-            segundoInputH.setAttribute('placeholder', 'Candidato...')
-            divListaH.appendChild(segundoInputH);
-            
-            tercerInputH = document.createElement("input");
-            tercerInputH.setAttribute('placeholder', 'Votos')
-            divListaH.appendChild(tercerInputH);
+        primerInputH = document.createElement("input");
+        primerInputH.id = "inputListaH";
+        primerInputH.setAttribute('placeholder', 'Agrupación...')
+        divListaH.appendChild(primerInputH);
+        
+        segundoInputH = document.createElement("input");
+        segundoInputH.id = "segundoInputListaH";
+        segundoInputH.setAttribute('placeholder', 'Candidato...')
+        divListaH.appendChild(segundoInputH);
+        
+        tercerInputH = document.createElement("input");
+        tercerInputH.id = "tercerInputListaH";
+        tercerInputH.setAttribute('placeholder', 'Votos')
+        divListaH.appendChild(tercerInputH);
 
             //Novena lista
         divListaI = document.createElement("div");
@@ -930,14 +1060,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaI);
         
             primerInputI = document.createElement("input");
+            primerInputI.id = "inputListaI";
             primerInputI.setAttribute('placeholder', 'Agrupación...')
             divListaI.appendChild(primerInputI);
             
             segundoInputI = document.createElement("input");
+            segundoInputI.id = "segundoInputListaI";
             segundoInputI.setAttribute('placeholder', 'Candidato...')
             divListaI.appendChild(segundoInputI);
             
             tercerInputI = document.createElement("input");
+            tercerInputI.id = "tercerInputListaI";
             tercerInputI.setAttribute('placeholder', 'Votos')
             divListaI.appendChild(tercerInputI);
     break;
@@ -949,14 +1082,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaA);
     
             primerInputA = document.createElement("input");
+            primerInputA.id = "inputListaA"
             primerInputA.setAttribute('placeholder', 'Agrupación...')
             divListaA.appendChild(primerInputA);
     
             segundoInputA = document.createElement("input");
+            segundoInputA.id = "segudoInputListaA";
             segundoInputA.setAttribute('placeholder', 'Candidato...')
             divListaA.appendChild(segundoInputA);
     
             tercerInputA = document.createElement("input");
+            tercerInputA.id = "tercerInputListaA";
             tercerInputA.setAttribute('placeholder', 'Votos')
             divListaA.appendChild(tercerInputA);
 
@@ -965,17 +1101,20 @@ switch(parseInt(cantidadListas)){
         divListaB.id = "listaB";
         infoPrincipal.appendChild(divListaB);
         
-            primerInputB = document.createElement("input");
-            primerInputB.setAttribute('placeholder', 'Agrupación...')
-            divListaB.appendChild(primerInputB);
-        
-            segundoInputB = document.createElement("input");
-            segundoInputB.setAttribute('placeholder', 'Candidato...')
-            divListaB.appendChild(segundoInputB);
-        
-            tercerInputB = document.createElement("input");
-            tercerInputB.setAttribute('placeholder', 'Votos')
-            divListaB.appendChild(tercerInputB);
+        primerInputB = document.createElement("input");
+        primerInputB.id = "inputListaB"
+        primerInputB.setAttribute('placeholder', 'Agrupación...')
+        divListaB.appendChild(primerInputB);
+
+        segundoInputB = document.createElement("input");
+        segundoInputB.id = "segundoInputListaB";
+        segundoInputB.setAttribute('placeholder', 'Candidato...')
+        divListaB.appendChild(segundoInputB);
+
+        tercerInputB = document.createElement("input");
+        tercerInputB.id = "tercerInputListaB"
+        tercerInputB.setAttribute('placeholder', 'Votos')
+        divListaB.appendChild(tercerInputB);
                     
             //Tercer lista
         divListaC = document.createElement("div");
@@ -983,17 +1122,20 @@ switch(parseInt(cantidadListas)){
         divListaC.id = "listaC";
         infoPrincipal.appendChild(divListaC);
                             
-            primerInputC = document.createElement("input");
-            primerInputC.setAttribute('placeholder', 'Agrupación...')
-            divListaC.appendChild(primerInputC);
-                                        
-            segundoInputC = document.createElement("input");
-            segundoInputC.setAttribute('placeholder', 'Candidato...')
-            divListaC.appendChild(segundoInputC);
-                                        
-            tercerInputC = document.createElement("input");
-            tercerInputC.setAttribute('placeholder', 'Votos')
-            divListaC.appendChild(tercerInputC);
+        primerInputC = document.createElement("input");
+        primerInputC.id = "inputListaC";
+        primerInputC.setAttribute('placeholder', 'Agrupación...')
+        divListaC.appendChild(primerInputC);
+                    
+        segundoInputC = document.createElement("input");
+        segundoInputC.id = "segundoInputListaC"; 
+        segundoInputC.setAttribute('placeholder', 'Candidato...')
+        divListaC.appendChild(segundoInputC);
+                    
+        tercerInputC = document.createElement("input");
+        tercerInputC.id = "tercerInputListaC";
+        tercerInputC.setAttribute('placeholder', 'Votos')
+        divListaC.appendChild(tercerInputC);
 
             //Cuarta lista        
         divListaD = document.createElement("div");
@@ -1001,17 +1143,20 @@ switch(parseInt(cantidadListas)){
         divListaD.id = "listaD";
         infoPrincipal.appendChild(divListaD);
         
-            primerInputD = document.createElement("input");
-            primerInputD.setAttribute('placeholder', 'Agrupación...')
-            divListaD.appendChild(primerInputD);
-            
-            segundoInputD = document.createElement("input");
-            segundoInputD.setAttribute('placeholder', 'Candidato...')
-            divListaD.appendChild(segundoInputD);
-            
-            tercerInputD = document.createElement("input");
-            tercerInputD.setAttribute('placeholder', 'Votos')
-            divListaD.appendChild(tercerInputD);
+        primerInputD = document.createElement("input");
+        primerInputD.id = "inputListaD"
+        primerInputD.setAttribute('placeholder', 'Agrupación...')
+        divListaD.appendChild(primerInputD);
+        
+        segundoInputD = document.createElement("input");
+        segundoInputD.id = "segundoInputListaD"
+        segundoInputD.setAttribute('placeholder', 'Candidato...')
+        divListaD.appendChild(segundoInputD);
+        
+        tercerInputD = document.createElement("input");
+        tercerInputD.id = "tercerInputListaD";
+        tercerInputD.setAttribute('placeholder', 'Votos')
+        divListaD.appendChild(tercerInputD);
 
             //Quinta lista
         divListaE = document.createElement("div");
@@ -1019,17 +1164,20 @@ switch(parseInt(cantidadListas)){
         divListaE.id = "listaE";
         infoPrincipal.appendChild(divListaE);
         
-            primerInputE = document.createElement("input");
-            primerInputE.setAttribute('placeholder', 'Agrupación...')
-            divListaE.appendChild(primerInputE);
-            
-            segundoInputE = document.createElement("input");
-            segundoInputE.setAttribute('placeholder', 'Candidato...')
-            divListaE.appendChild(segundoInputE);
-            
-            tercerInputE = document.createElement("input");
-            tercerInputE.setAttribute('placeholder', 'Votos')
-            divListaE.appendChild(tercerInputE);
+        primerInputE = document.createElement("input");
+        primerInputE.id = "inputListaE";
+        primerInputE.setAttribute('placeholder', 'Agrupación...')
+        divListaE.appendChild(primerInputE);
+        
+        segundoInputE = document.createElement("input");
+        segundoInputE.id = "segundoInputListaE";
+        segundoInputE.setAttribute('placeholder', 'Candidato...')
+        divListaE.appendChild(segundoInputE);
+        
+        tercerInputE = document.createElement("input");
+        tercerInputE.id = "tercerInputListaE";
+        tercerInputE.setAttribute('placeholder', 'Votos')
+        divListaE.appendChild(tercerInputE);
 
             //Sexta lista
         divListaF = document.createElement("div");
@@ -1037,17 +1185,20 @@ switch(parseInt(cantidadListas)){
         divListaF.id = "listaF";
         infoPrincipal.appendChild(divListaF);
         
-            primerInputF = document.createElement("input");
-            primerInputF.setAttribute('placeholder', 'Agrupación...')
-            divListaF.appendChild(primerInputF);
-            
-            segundoInputF = document.createElement("input");
-            segundoInputF.setAttribute('placeholder', 'Candidato...')
-            divListaF.appendChild(segundoInputF);
-            
-            tercerInputF = document.createElement("input");
-            tercerInputF.setAttribute('placeholder', 'Votos')
-            divListaF.appendChild(tercerInputF);
+        primerInputF = document.createElement("input");
+        primerInputF.id = "inputListaF";
+        primerInputF.setAttribute('placeholder', 'Agrupación...')
+        divListaF.appendChild(primerInputF);
+        
+        segundoInputF = document.createElement("input");
+        segundoInputF.id = "segundoInputListaF";
+        segundoInputF.setAttribute('placeholder', 'Candidato...')
+        divListaF.appendChild(segundoInputF);
+        
+        tercerInputF = document.createElement("input");
+        tercerInputF.id = "tercerInputListaF";
+        tercerInputF.setAttribute('placeholder', 'Votos')
+        divListaF.appendChild(tercerInputF);
 
             //Septima lista
         divListaG = document.createElement("div");
@@ -1055,17 +1206,20 @@ switch(parseInt(cantidadListas)){
         divListaG.id = "listaG";
         infoPrincipal.appendChild(divListaG);
         
-            primerInputG = document.createElement("input");
-            primerInputG.setAttribute('placeholder', 'Agrupación...')
-            divListaG.appendChild(primerInputG);
-            
-            segundoInputG = document.createElement("input");
-            segundoInputG.setAttribute('placeholder', 'Candidato...')
-            divListaG.appendChild(segundoInputG);
-            
-            tercerInputG = document.createElement("input");
-            tercerInputG.setAttribute('placeholder', 'Votos')
-            divListaG.appendChild(tercerInputG);
+        primerInputG = document.createElement("input");
+        primerInputG.id = "inputListaG";
+        primerInputG.setAttribute('placeholder', 'Agrupación...')
+        divListaG.appendChild(primerInputG);
+        
+        segundoInputG = document.createElement("input");
+        segundoInputG.id = "segundoInputListaG";
+        segundoInputG.setAttribute('placeholder', 'Candidato...')
+        divListaG.appendChild(segundoInputG);
+        
+        tercerInputG = document.createElement("input");
+        tercerInputG.id = "tercerInputListaG";
+        tercerInputG.setAttribute('placeholder', 'Votos')
+        divListaG.appendChild(tercerInputG);
 
             //Octava lista
         divListaH = document.createElement("div");
@@ -1073,17 +1227,20 @@ switch(parseInt(cantidadListas)){
         divListaH.id = "listaH";
         infoPrincipal.appendChild(divListaH);
         
-            primerInputH = document.createElement("input");
-            primerInputH.setAttribute('placeholder', 'Agrupación...')
-            divListaH.appendChild(primerInputH);
-            
-            segundoInputH = document.createElement("input");
-            segundoInputH.setAttribute('placeholder', 'Candidato...')
-            divListaH.appendChild(segundoInputH);
-            
-            tercerInputH = document.createElement("input");
-            tercerInputH.setAttribute('placeholder', 'Votos')
-            divListaH.appendChild(tercerInputH);
+        primerInputH = document.createElement("input");
+        primerInputH.id = "inputListaH";
+        primerInputH.setAttribute('placeholder', 'Agrupación...')
+        divListaH.appendChild(primerInputH);
+        
+        segundoInputH = document.createElement("input");
+        segundoInputH.id = "segundoInputListaH";
+        segundoInputH.setAttribute('placeholder', 'Candidato...')
+        divListaH.appendChild(segundoInputH);
+        
+        tercerInputH = document.createElement("input");
+        tercerInputH.id = "tercerInputListaH";
+        tercerInputH.setAttribute('placeholder', 'Votos')
+        divListaH.appendChild(tercerInputH);
 
             //Novena lista
         divListaI = document.createElement("div");
@@ -1091,17 +1248,20 @@ switch(parseInt(cantidadListas)){
         divListaI.id = "listaI";
         infoPrincipal.appendChild(divListaI);
         
-            primerInputI = document.createElement("input");
-            primerInputI.setAttribute('placeholder', 'Agrupación...')
-            divListaI.appendChild(primerInputI);
-            
-            segundoInputI = document.createElement("input");
-            segundoInputI.setAttribute('placeholder', 'Candidato...')
-            divListaI.appendChild(segundoInputI);
-            
-            tercerInputI = document.createElement("input");
-            tercerInputI.setAttribute('placeholder', 'Votos')
-            divListaI.appendChild(tercerInputI);
+        primerInputI = document.createElement("input");
+        primerInputI.id = "inputListaI";
+        primerInputI.setAttribute('placeholder', 'Agrupación...')
+        divListaI.appendChild(primerInputI);
+        
+        segundoInputI = document.createElement("input");
+        segundoInputI.id = "segundoInputListaI";
+        segundoInputI.setAttribute('placeholder', 'Candidato...')
+        divListaI.appendChild(segundoInputI);
+        
+        tercerInputI = document.createElement("input");
+        tercerInputI.id = "tercerInputListaI";
+        tercerInputI.setAttribute('placeholder', 'Votos')
+        divListaI.appendChild(tercerInputI);
 
             //Decima lista
         divListaJ = document.createElement("div");
@@ -1110,14 +1270,17 @@ switch(parseInt(cantidadListas)){
         infoPrincipal.appendChild(divListaJ);
         
             primerInputJ = document.createElement("input");
+            primerInputJ.id = "inputListaJ";
             primerInputJ.setAttribute('placeholder', 'Agrupación...')
             divListaJ.appendChild(primerInputJ);
             
             segundoInputJ = document.createElement("input");
+            segundoInputJ.id = "segundoInputListaJ";
             segundoInputJ.setAttribute('placeholder', 'Candidato...')
             divListaJ.appendChild(segundoInputJ);
             
             tercerInputJ = document.createElement("input");
+            tercerInputJ.id = "tercerInputListaJ";
             tercerInputJ.setAttribute('placeholder', 'Votos')
             divListaJ.appendChild(tercerInputJ);
     break;
@@ -1129,7 +1292,9 @@ const etiqVotosBlancos = document.createElement("label");
 etiqVotosBlancos.innerText = "Votos blancos"
 posSeccion.appendChild(etiqVotosBlancos);
 
-const votosBlancos = document.createElement("input");
+let votosBlancos = document.createElement("input");
+votosBlancos.setAttribute ('type', 'number');
+votosBlancos.id = "votosBlancos";
 posSeccion.appendChild(votosBlancos);
 
 const etiqVotosNulos = document.createElement("label");
@@ -1149,7 +1314,7 @@ posSeccion.appendChild(votosImpugnados);
 const boton = document.createElement("input");
 boton.setAttribute('type', 'submit');
 boton.className = "boton";
-boton.addEventListener("click", resultado);
+boton.addEventListener("click", calculo);
 posSeccion.appendChild(boton);
 
 //Sexto Nodo: Información secundaria(aside)
@@ -1236,3 +1401,325 @@ function resultado(){
     seccionResultado.innerHTML = '<div></div>';
     pie.appendChild(seccionResultado);
 }
+
+
+class Agrupaciones {
+    constructor (nombre, candidato, votos){
+        this.nombre = nombre;
+        this.candidato = candidato;
+        this.votos = votos;
+    }
+}
+
+const lista1 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista2 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista3 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista4 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista5 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista6 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista7 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista8 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista9 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista10 = new Agrupaciones ("sin definir", "sin definir", 0);
+
+function calculo(){
+    let cantidadListas = document.getElementById("numListas").value;
+
+    switch(parseInt(cantidadListas)){
+    case 2:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+    break;
+    
+    case 3:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    break;
+
+    case 4:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    
+        lista4.nombre = document.getElementById("inputListaD").value;
+        lista4.candidato = document.getElementById("segundoInputListaD").value;
+        lista4.votos = document.getElementById("tercerInputListaD").value;
+        lista4.votos = parseInt(lista4.votos);
+    break;
+
+    case 5:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    
+        lista4.nombre = document.getElementById("inputListaD").value;
+        lista4.candidato = document.getElementById("segundoInputListaD").value;
+        lista4.votos = document.getElementById("tercerInputListaD").value;
+        lista4.votos = parseInt(lista4.votos);
+    
+        lista5.nombre = document.getElementById("inputListaE").value;
+        lista5.candidato = document.getElementById("segundoInputListaE").value;
+        lista5.votos = document.getElementById("tercerInputListaE").value;
+        lista5.votos = parseInt(lista5.votos);
+    break;
+
+    case 6:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    
+        lista4.nombre = document.getElementById("inputListaD").value;
+        lista4.candidato = document.getElementById("segundoInputListaD").value;
+        lista4.votos = document.getElementById("tercerInputListaD").value;
+        lista4.votos = parseInt(lista4.votos);
+    
+        lista5.nombre = document.getElementById("inputListaE").value;
+        lista5.candidato = document.getElementById("segundoInputListaE").value;
+        lista5.votos = document.getElementById("tercerInputListaE").value;
+        lista5.votos = parseInt(lista5.votos);
+    
+        lista6.nombre = document.getElementById("inputListaF").value;
+        lista6.candidato = document.getElementById("segundoInputListaF").value;
+        lista6.votos = document.getElementById("tercerInputListaF").value;
+        lista6.votos = parseInt(lista6.votos);
+    break;
+
+    case 7:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    
+        lista4.nombre = document.getElementById("inputListaD").value;
+        lista4.candidato = document.getElementById("segundoInputListaD").value;
+        lista4.votos = document.getElementById("tercerInputListaD").value;
+        lista4.votos = parseInt(lista4.votos);
+    
+        lista5.nombre = document.getElementById("inputListaE").value;
+        lista5.candidato = document.getElementById("segundoInputListaE").value;
+        lista5.votos = document.getElementById("tercerInputListaE").value;
+        lista5.votos = parseInt(lista5.votos);
+    
+        lista6.nombre = document.getElementById("inputListaF").value;
+        lista6.candidato = document.getElementById("segundoInputListaF").value;
+        lista6.votos = document.getElementById("tercerInputListaF").value;
+        lista6.votos = parseInt(lista6.votos);
+    
+        lista7.nombre = document.getElementById("inputListaG").value;
+        lista7.candidato = document.getElementById("segundoInputListaG").value;
+        lista7.votos = document.getElementById("tercerInputListaG").value;
+        lista7.votos = parseInt(lista7.votos);
+    break;
+
+    case 8:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    
+        lista4.nombre = document.getElementById("inputListaD").value;
+        lista4.candidato = document.getElementById("segundoInputListaD").value;
+        lista4.votos = document.getElementById("tercerInputListaD").value;
+        lista4.votos = parseInt(lista4.votos);
+    
+        lista5.nombre = document.getElementById("inputListaE").value;
+        lista5.candidato = document.getElementById("segundoInputListaE").value;
+        lista5.votos = document.getElementById("tercerInputListaE").value;
+        lista5.votos = parseInt(lista5.votos);
+    
+        lista6.nombre = document.getElementById("inputListaF").value;
+        lista6.candidato = document.getElementById("segundoInputListaF").value;
+        lista6.votos = document.getElementById("tercerInputListaF").value;
+        lista6.votos = parseInt(lista6.votos);
+    
+        lista7.nombre = document.getElementById("inputListaG").value;
+        lista7.candidato = document.getElementById("segundoInputListaG").value;
+        lista7.votos = document.getElementById("tercerInputListaG").value;
+        lista7.votos = parseInt(lista7.votos);
+    
+        lista8.nombre = document.getElementById("inputListaH").value;
+        lista8.candidato = document.getElementById("segundoInputListaH").value;
+        lista8.votos = document.getElementById("tercerInputListaH").value;
+        lista8.votos = parseInt(lista8.votos);
+    break;
+
+    case 9:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    
+        lista4.nombre = document.getElementById("inputListaD").value;
+        lista4.candidato = document.getElementById("segundoInputListaD").value;
+        lista4.votos = document.getElementById("tercerInputListaD").value;
+        lista4.votos = parseInt(lista4.votos);
+    
+        lista5.nombre = document.getElementById("inputListaE").value;
+        lista5.candidato = document.getElementById("segundoInputListaE").value;
+        lista5.votos = document.getElementById("tercerInputListaE").value;
+        lista5.votos = parseInt(lista5.votos);
+    
+        lista6.nombre = document.getElementById("inputListaF").value;
+        lista6.candidato = document.getElementById("segundoInputListaF").value;
+        lista6.votos = document.getElementById("tercerInputListaF").value;
+        lista6.votos = parseInt(lista6.votos);
+    
+        lista7.nombre = document.getElementById("inputListaG").value;
+        lista7.candidato = document.getElementById("segundoInputListaG").value;
+        lista7.votos = document.getElementById("tercerInputListaG").value;
+        lista7.votos = parseInt(lista7.votos);
+    
+        lista8.nombre = document.getElementById("inputListaH").value;
+        lista8.candidato = document.getElementById("segundoInputListaH").value;
+        lista8.votos = document.getElementById("tercerInputListaH").value;
+        lista8.votos = parseInt(lista8.votos);
+    
+        lista9.nombre = document.getElementById("inputListaI").value;
+        lista9.candidato = document.getElementById("segundoInputListaI").value;
+        lista9.votos = document.getElementById("tercerInputListaI").value;
+        lista9.votos = parseInt(lista9.votos);
+    break;
+
+    case 10:
+        lista1.nombre = document.getElementById("inputListaA").value;
+        lista1.candidato = document.getElementById("segudoInputListaA").value;
+        lista1.votos = document.getElementById("tercerInputListaA").value;
+        lista1.votos = parseInt(lista1.votos);
+    
+        lista2.nombre = document.getElementById("inputListaB").value;
+        lista2.candidato = document.getElementById("segundoInputListaB").value;
+        lista2.votos = document.getElementById("tercerInputListaB").value;
+        lista2.votos = parseInt(lista2.votos);
+
+        lista3.nombre = document.getElementById("inputListaC").value;
+        lista3.candidato = document.getElementById("segundoInputListaC").value;
+        lista3.votos = document.getElementById("tercerInputListaC").value;
+        lista3.votos = parseInt(lista3.votos);
+    
+        lista4.nombre = document.getElementById("inputListaD").value;
+        lista4.candidato = document.getElementById("segundoInputListaD").value;
+        lista4.votos = document.getElementById("tercerInputListaD").value;
+        lista4.votos = parseInt(lista4.votos);
+    
+        lista5.nombre = document.getElementById("inputListaE").value;
+        lista5.candidato = document.getElementById("segundoInputListaE").value;
+        lista5.votos = document.getElementById("tercerInputListaE").value;
+        lista5.votos = parseInt(lista5.votos);
+    
+        lista6.nombre = document.getElementById("inputListaF").value;
+        lista6.candidato = document.getElementById("segundoInputListaF").value;
+        lista6.votos = document.getElementById("tercerInputListaF").value;
+        lista6.votos = parseInt(lista6.votos);
+    
+        lista7.nombre = document.getElementById("inputListaG").value;
+        lista7.candidato = document.getElementById("segundoInputListaG").value;
+        lista7.votos = document.getElementById("tercerInputListaG").value;
+        lista7.votos = parseInt(lista7.votos);
+    
+        lista8.nombre = document.getElementById("inputListaH").value;
+        lista8.candidato = document.getElementById("segundoInputListaH").value;
+        lista8.votos = document.getElementById("tercerInputListaH").value;
+        lista8.votos = parseInt(lista8.votos);
+    
+        lista9.nombre = document.getElementById("inputListaI").value;
+        lista9.candidato = document.getElementById("segundoInputListaI").value;
+        lista9.votos = document.getElementById("tercerInputListaI").value;
+        lista9.votos = parseInt(lista9.votos);
+    
+        lista10.nombre = document.getElementById("inputListaJ").value;
+        lista10.candidato = document.getElementById("segundoInputListaJ").value;
+        lista10.votos = document.getElementById("tercerInputListaJ").value;
+        lista10.votos = parseInt(lista10.votos);
+    break;
+    }
+
+    
+}
+
+const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10]
+
+let totBlancos = document.getElementById("votosBlancos").value;
+
+
+let votosTotales = lista1.votos + lista2.votos + lista3.votos + lista4.votos + lista5.votos + lista5.votos + lista6.votos + lista7.votos + lista8.votos + lista9.votos + lista10.votos;
