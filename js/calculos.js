@@ -19,7 +19,7 @@ let listas = parseInt(prompt("¿Cuántas listas se presentan?"));
 
 //Se crea una función que implementa un switch para crear la cantidad de objetos, según lo que defina el usuario en el prompt anterior.
 function numListas() {
-    switch(listas){
+    switch(parseInt(listas)){
         case 1:
             alert("No hay elecciones");
         break;
