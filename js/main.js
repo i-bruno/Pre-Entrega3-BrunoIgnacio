@@ -1311,6 +1311,9 @@ function reset(){
     let divListaJ = document.getElementById("listaJ");
     let divMensaje = document.getElementById("divMensaje");
     let divEnunciado = document.getElementById("divEnunciado");
+    let textoGanador = document.getElementById("textoGanador");
+    let mayoria = document.getElementById("mayoria");
+    let minoria = document.getElementById("minoria");
 
     switch(parseInt(cantidadListas)){
         case 1:
@@ -1400,6 +1403,9 @@ function reset(){
     }
 
 divEnunciado.remove();
+textoGanador.remove();
+mayoria.remove();
+minoria.remove();
 }
 
 //Quinto Nodo: Post sección principal
@@ -1906,6 +1912,7 @@ let listaGanadora = arrayListas.find (function (arrayListas){
 });
 
 const textoGanador = document.createElement("div");
+textoGanador.id = "textoGanador";
 textoGanador.innerHTML = '<p> El candidato ' + listaGanadora.candidato + ' de la agrupación '+ listaGanadora.nombre + ' gano las elecciones con '+ listaGanadora.votos + ' votos.</p>'
 pie.appendChild(textoGanador);
 
@@ -1913,6 +1920,7 @@ pie.appendChild(textoGanador);
 let porcentajeMayoria = parseFloat((votosMayor*100)/votosTotales).toFixed(3);
 
 const mayoria = document.createElement("div");
+mayoria.id = "mayoria";
 mayoria.innerHTML = '<p>La mayoría obtuvo un ' + porcentajeMayoria + ' porciento</p>';
 pie.appendChild(mayoria);
 
@@ -1922,6 +1930,7 @@ let votosMinoria = (votosTotales-votosMayor)-totBlancos;
 let porcentajeMinoria = parseFloat((votosMinoria*100)/votosTotales).toFixed(3);
 
 const minoria = document.createElement("div");
+minoria.id = "minoria";
 minoria.innerHTML = '<p>La minoría obtuvo un total de '+ votosMinoria + ' votos que equivalen al ' + porcentajeMinoria +' porciento.</p>';
 pie.appendChild(minoria);
 }
