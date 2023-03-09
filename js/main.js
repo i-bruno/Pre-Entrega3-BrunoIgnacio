@@ -93,6 +93,8 @@ preSeccion.appendChild(btnReset);
 //Cuarto Nodo: Información/sección Principal
 function funListas (){
 let cantidadListas = document.getElementById("numListas").value;
+let divMensaje
+
 let divListaA
 let primerInputA
 let segundoInputA
@@ -145,7 +147,11 @@ let tercerInputJ
 
 switch(parseInt(cantidadListas)){
     case 1:
-        console.log("No hay elecciones");
+        divMensaje = document.createElement("div");
+        divMensaje.className = "divMensaje";
+        divMensaje.id = "divMensaje";
+        divMensaje.innerHTML = "<h3>No se realizan las elecciones</h3>";
+        infoPrincipal.appendChild(divMensaje);
     break;
 
     case 2:
@@ -1292,7 +1298,7 @@ switch(parseInt(cantidadListas)){
 
 function reset(){
     let cantidadListas = document.getElementById("numListas").value;
-    
+
     let divListaA = document.getElementById("listaA");
     let divListaB = document.getElementById("listaB");
     let divListaC = document.getElementById("listaC");
@@ -1303,8 +1309,13 @@ function reset(){
     let divListaH = document.getElementById("listaH");
     let divListaI = document.getElementById("listaI");
     let divListaJ = document.getElementById("listaJ");
+    let divMensaje = document.getElementById("divMensaje");
 
     switch(parseInt(cantidadListas)){
+        case 1:
+            divMensaje.remove();
+        break;
+        
         case 2:
             divListaA.remove();
             divListaB.remove();
