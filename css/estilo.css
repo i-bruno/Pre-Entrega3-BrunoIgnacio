@@ -125,14 +125,14 @@ a {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  width: auto;
+  width: 800px;
   align-items: center; }
 
 .aside {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   height: 200px;
-  width: 200px;
+  width: 300px;
   overflow-y: scroll;
   text-align: justify;
   display: inline-block;
