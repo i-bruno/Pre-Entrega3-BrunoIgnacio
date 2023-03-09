@@ -1310,6 +1310,7 @@ function reset(){
     let divListaI = document.getElementById("listaI");
     let divListaJ = document.getElementById("listaJ");
     let divMensaje = document.getElementById("divMensaje");
+    let divEnunciado = document.getElementById("divEnunciado");
 
     switch(parseInt(cantidadListas)){
         case 1:
@@ -1397,6 +1398,8 @@ function reset(){
             divListaJ.remove();
         break;
     }
+
+divEnunciado.remove();
 }
 
 //Quinto Nodo: Post sección principal
@@ -1839,46 +1842,55 @@ function calculo(){
     switch(parseInt(cantidadListas)){
         case 2:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 3:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 4:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 5:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 6:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 7:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 8:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p> '+ lista8.candidato + ' de la agrupación ' + lista8.nombre + ' obtuvo '+ lista8.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 9:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p> '+ lista8.candidato + ' de la agrupación ' + lista8.nombre + ' obtuvo '+ lista8.votos+ ' votos.</p> <p> '+ lista9.candidato + ' de la agrupación ' + lista9.nombre + ' obtuvo '+ lista9.votos+ ' votos.</p><p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 10:
             divEnunciado = document.createElement("div");
+            divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p> '+ lista8.candidato + ' de la agrupación ' + lista8.nombre + ' obtuvo '+ lista8.votos+ ' votos.</p> <p> '+ lista9.candidato + ' de la agrupación ' + lista9.nombre + ' obtuvo '+ lista9.votos+ ' votos.</p> <p> '+ lista10.candidato + ' de la agrupación ' + lista10.nombre + ' obtuvo '+ lista10.votos+ ' votos.</p><p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
