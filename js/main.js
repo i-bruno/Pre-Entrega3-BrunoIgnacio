@@ -87,6 +87,7 @@ btnReset.id = "btnReset";
 btnReset.setAttribute('type', 'submit');
 btnReset.className = "boton";
 btnReset.innerText = "Resetear";
+btnReset.addEventListener("click", reset);
 preSeccion.appendChild(btnReset);
 
 //Cuarto Nodo: Información/sección Principal
@@ -1288,6 +1289,92 @@ switch(parseInt(cantidadListas)){
     break;
 }       
     }
+
+function reset(){
+    let cantidadListas = document.getElementById("numListas").value;
+    switch(parseInt(cantidadListas)){
+        case 2:
+            divListaA.remove();
+            divListaB.remove();
+        break;
+
+        case 3:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+        break;
+
+        case 4:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+            divListaD.remove();
+        break;
+
+        case 5:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+            divListaD.remove();
+            divListaE.remove();
+        break;
+
+        case 6:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+            divListaD.remove();
+            divListaE.remove();
+            divListaF.remove();
+        break;
+
+        case 7:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+            divListaD.remove();
+            divListaE.remove();
+            divListaF.remove();
+            divListaG.remove();
+        break;
+
+        case 8:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+            divListaD.remove();
+            divListaE.remove();
+            divListaF.remove();
+            divListaG.remove();
+            divListaH.remove();
+        break;
+
+        case 9:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+            divListaD.remove();
+            divListaE.remove();
+            divListaF.remove();
+            divListaG.remove();
+            divListaH.remove();
+            divListaI.remove();
+        break;
+
+        case 10:
+            divListaA.remove();
+            divListaB.remove();
+            divListaC.remove();
+            divListaD.remove();
+            divListaE.remove();
+            divListaF.remove();
+            divListaG.remove();
+            divListaH.remove();
+            divListaI.remove();
+            divListaJ.remove();
+        break;
+    }
+}
 
 //Quinto Nodo: Post sección principal
 const etiqVotosBlancos = document.createElement("label");
