@@ -1292,6 +1292,18 @@ switch(parseInt(cantidadListas)){
 
 function reset(){
     let cantidadListas = document.getElementById("numListas").value;
+    
+    let divListaA = document.getElementById("listaA");
+    let divListaB = document.getElementById("listaB");
+    let divListaC = document.getElementById("listaC");
+    let divListaD = document.getElementById("listaD");
+    let divListaE = document.getElementById("listaE");
+    let divListaF = document.getElementById("listaF");
+    let divListaG = document.getElementById("listaG");
+    let divListaH = document.getElementById("listaH");
+    let divListaI = document.getElementById("listaI");
+    let divListaJ = document.getElementById("listaJ");
+
     switch(parseInt(cantidadListas)){
         case 2:
             divListaA.remove();
