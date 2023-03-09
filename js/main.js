@@ -1,6 +1,6 @@
 const body = document.body;
 body.id = "cuerpo";
-body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section><section id="seccionPrincipal"></section> <section id="posSeccion"></section><aside id="menuLateral"></aside>  <footer id="piePagina"></footer>';
+body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section><aside id="menuLateral"></aside></div> <section id="posSeccion"></section>  <footer id="piePagina"></footer>';
 
 const encabezado = document.getElementById("encabezado");
 encabezado.className = "classEncabezado";
@@ -8,6 +8,8 @@ const navegacion = document.getElementById("navBar");
 navegacion.className = "classNavegacion";
 const preSeccion = document.getElementById("preSeccion");
 preSeccion.className = "classPreSeccion";
+const divSeccionPrincipal = document.getElementById("divSeccionPrincipal");
+divSeccionPrincipal.className = "divSeccionPrincipal";
 const infoPrincipal = document.getElementById("seccionPrincipal");
 infoPrincipal.className = "classInfoPrincipal";
 const posSeccion = document.getElementById("posSeccion");

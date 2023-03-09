@@ -65,6 +65,18 @@ a {
   color: white; }
 
 /*Clases*/
+.divSeccionPrincipal{
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+}
+
 .calculadora {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
