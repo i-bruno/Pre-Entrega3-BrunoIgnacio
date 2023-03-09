@@ -1315,7 +1315,7 @@ function reset(){
         case 1:
             divMensaje.remove();
         break;
-        
+
         case 2:
             divListaA.remove();
             divListaB.remove();
@@ -1406,6 +1406,7 @@ posSeccion.appendChild(etiqVotosBlancos);
 
 let votosBlancos = document.createElement("input");
 votosBlancos.setAttribute ('type', 'number');
+votosBlancos.setAttribute ('value', 0);
 votosBlancos.id = "votosBlancos";
 posSeccion.appendChild(votosBlancos);
 
