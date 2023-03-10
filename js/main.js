@@ -1976,7 +1976,8 @@ pie.appendChild(tituloCD);
 
 const divCD = document.createElement("div");
 divCD.className = "containerCD";
-divCD.innerHTML = "<div class='cd1'></div><div class='cd2'></div><div class='cd3'></div><div class='cd4'></div><div class='cd5'></div><div class='cd6'></div><div class='cd7'></div><div class='cd8'></div><div class='cd9'></div><div class='cd10'></div><div class='cd11'></div><div class='cd12'></div><div class='cd13'></div><div class='cd14'></div><div class='cd15'></div><div class='cd16'></div><div class='cd17'></div><div class='cd18'></div><div class='cd19'></div><div class='cd20'></div>";
+divCD.innerHTML = "<div class='cd1'><h2>1</h2></div><div class='cd2'><h2>2</h2></div><div class='cd3'><h2>3</h2></div><div class='cd4'><h2>4</h2></div><div class='cd5'><h2>5</h2></div><div class='cd6'><h2>6</h2></div><div class='cd7'><h2>7</h2></div><div class='cd8'><h2>8</h2></div><div class='cd9'><h2>9</h2></div><div class='cd10'><h2>10</h2></div><div class='cd11'><h2>11</h2></div><div class='cd12'><h2>12</h2></div><div class='cd13'><h2>13</h2></div><div class='cd14'><h2>14</h2></div><div class='cd15'><h2>15</h2></div><div class='cd16'><h2>16</h2></div><div class='cd17'><h2>17</h2></div><div class='cd18'><h2>18</h2></div><div class='cd19'><h2>19</h2></div><div class='cd20'><h2>20</h2></div>";
+pie.appendChild(divCD);
 
 const lineaHorizontal3 = document.createElement("hr");
 pie.appendChild(lineaHorizontal3);
