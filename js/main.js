@@ -1955,6 +1955,9 @@ minoria.id = "minoria";
 minoria.innerHTML = '<p>La minoría obtuvo un total de '+ votosMinoria + ' votos que equivalen al ' + porcentajeMinoria +' porciento.</p>';
 pie.appendChild(minoria);
 
+const lineaHorizontal1 = document.createElement("hr");
+pie.appendChild(lineaHorizontal1);
+
 const tituloAsambleista = document.createElement("h1");
 tituloAsambleista.innerText = "Asambleístas";
 pie.appendChild(tituloAsambleista);
@@ -1964,9 +1967,15 @@ divGrafica.className = "containerGrafica";
 divGrafica.innerHTML = "<div class='as1'><h2>1</h2></div><div class='as2'><h2>2</h2></div><div class='as3'><h2>3</h2></div><div class='as4'><h2>4</h2></div><div class='as5'><h2>5</h2></div><div class='as6'><h2>6</h2></div><div class='as7'><h2>7</h2></div><div class='as8'><h2>8</h2></div><div class='as9'><h2>9</h2></div><div class='as10'><h2>10</h2></div><div class='as11'><h2>11</h2></div><div class='as12'><h2>12</h2></div><div class='as13'><h2>13</h2></div><div class='as14'><h2>14</h2></div><div class='as15'><h2>15</h2></div><div class='as16'><h2>16</h2></div><div class='as17'><h2>17</h2></div><div class='as18'><h2>18</h2></div><div class='as19'><h2>19</h2></div><div class='as20'><h2>20</h2></div><div class='as21'><h2>21</h2></div><div class='as22'><h2>22</h2></div><div class='as23'><h2>23</h2></div><div class='as24'><h2>24</h2></div><div class='as25'><h2>25</h2></div><div class='as26'><h2>26</h2></div><div class='as27'><h2>27</h2></div><div class='as28'><h2>28</h2></div><div class='as29'><h2>29</h2></div><div class='as30'><h2>30</h2></div><div class='as31'><h2>31</h2></div><div class='as32'><h2>32</h2></div><div class='as33'><h2>33</h2></div><div class='as34'><h2>34</h2></div><div class='as35'><h2>35</h2></div><div class='as36'><h2>36</h2></div><div class='as37'><h2>37</h2></div><div class='as38'><h2>38</h2></div><div class='as39'><h2>39</h2></div><div class='as40'><h2>40</h2></div><div class='as41'><h2>41</h2></div><div class='as42'><h2>42</h2></div><div class='as43'><h2>43</h2></div><div class='as44'><h2>44</h2></div><div class='as45'><h2>45</h2></div><div class='as46'><h2>46</h2></div><div class='as47'><h2>47</h2></div><div class='as48'><h2>48</h2></div><div class='as49'><h2>49</h2></div><div class='as50'><h2>50</h2></div><div class='as51'><h2>51</h2></div><div class='as52'><h2>52</h2></div><div class='as53'><h2>53</h2></div><div class='as54'><h2>54</h2></div><div class='as55'><h2>55</h2></div><div class='as56'><h2>56</h2></div><div class='as57'><h2>57</h2></div><div class='as58'><h2>58</h2></div><div class='as59'><h2>59</h2></div><div class='as60'><h2>60</h2></div><div class='as61'><h2>61</h2></div><div class='as62'><h2>62</h2></div><div class='as63'><h2>63</h2></div><div class='as64'><h2>64</h2></div><div class='as65'><h2>65</h2></div><div class='as66'><h2>66</h2></div><div class='as67'><h2>67</h2></div><div class='as68'><h2>68</h2></div><div class='as69'><h2>69</h2></div><div class='as70'><h2>70</h2></div><div class='as71'><h2>71</h2></div><div class='as72'><h2>72</h2></div><div class='as73'><h2>73</h2></div><div class='as74'><h2>74</h2></div><div class='as75'><h2>75</h2></div><div class='as76'><h2>76</h2></div><div class='as77'><h2>77</h2></div><div class='as78'><h2>78</h2></div><div class='as79'><h2>79</h2></div><div class='as80'><h2>80</h2></div><div class='as81'><h2>81</h2></div><div class='as82'><h2>82</h2></div><div class='as83'><h2>83</h2></div><div class='as84'><h2>84</h2></div><div class='as85'><h2>85</h2></div><div class='as86'><h2>86</h2></div><div class='as87'><h2>87</h2></div><div class='as88'><h2>88</h2></div><div class='as89'><h2>89</h2></div><div class='as90'><h2>90</h2></div>"
 pie.appendChild(divGrafica);
 
+const lineaHorizontal2 = document.createElement("hr");
+pie.appendChild(lineaHorizontal2);
+
 const tituloCD = document.createElement("h1");
 tituloCD.innerText = "Comisión Directiva";
 pie.appendChild(tituloCD);
+
+const lineaHorizontal3 = document.createElement("hr");
+pie.appendChild(lineaHorizontal3);
 
 const tituloCF = document.createElement("h1");
 tituloCF.innerText = "Comisión Fiscalizadora";
