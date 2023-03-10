@@ -1534,23 +1534,24 @@ function resultado(){
 
 
 class Agrupaciones {
-    constructor (nombre, candidato, votos){
+    constructor (nombre, candidato, votos, porcentaje){
         this.nombre = nombre;
         this.candidato = candidato;
         this.votos = votos;
+        this.porcentaje = porcentaje;
     }
 }
 
-const lista1 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista2 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista3 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista4 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista5 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista6 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista7 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista8 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista9 = new Agrupaciones ("sin definir", "sin definir", 0);
-const lista10 = new Agrupaciones ("sin definir", "sin definir", 0);
+const lista1 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista2 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista3 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista4 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista5 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista6 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista7 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista8 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista9 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista10 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
 
 function calculo(){
     let cantidadListas = document.getElementById("numListas").value;
@@ -1851,6 +1852,18 @@ function calculo(){
     let votosTotales = lista1.votos + lista2.votos + lista3.votos + lista4.votos + lista5.votos + lista5.votos + lista6.votos + lista7.votos + lista8.votos + lista9.votos + lista10.votos + totBlancos;
     votosTotales = parseInt(votosTotales);
 
+    //Calcular porcentajes de listas
+lista1.porcentaje = ((lista1.votos/votosTotales)*100).toFixed(3);
+lista2.porcentaje = ((lista2.votos/votosTotales)*100).toFixed(3);
+lista3.porcentaje = ((lista3.votos/votosTotales)*100).toFixed(3);
+lista4.porcentaje = ((lista4.votos/votosTotales)*100).toFixed(3);
+lista5.porcentaje = ((lista5.votos/votosTotales)*100).toFixed(3);
+lista6.porcentaje = ((lista6.votos/votosTotales)*100).toFixed(3);
+lista7.porcentaje = ((lista7.votos/votosTotales)*100).toFixed(3);
+lista8.porcentaje = ((lista8.votos/votosTotales)*100).toFixed(3);
+lista9.porcentaje = ((lista9.votos/votosTotales)*100).toFixed(3);
+lista10.porcentaje = ((lista10.votos/votosTotales)*100).toFixed(3);
+
     let divEnunciado
 
     switch(parseInt(cantidadListas)){
@@ -1941,4 +1954,6 @@ const minoria = document.createElement("div");
 minoria.id = "minoria";
 minoria.innerHTML = '<p>La minoría obtuvo un total de '+ votosMinoria + ' votos que equivalen al ' + porcentajeMinoria +' porciento.</p>';
 pie.appendChild(minoria);
+
+
 }
