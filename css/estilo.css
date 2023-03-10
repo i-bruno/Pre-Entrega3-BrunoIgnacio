@@ -132,7 +132,7 @@ a {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   height: 200px;
-  width: 300px;
+  width: auto;
   overflow-y: scroll;
   text-align: justify;
   display: inline-block;
