@@ -2,20 +2,28 @@ const body = document.body;
 body.id = "cuerpo";
 body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section><aside id="menuLateral"></aside></div> <section id="posSeccion"></section>  <footer id="piePagina"></footer>';
 
+//Encabezado
 const encabezado = document.getElementById("encabezado");
 encabezado.className = "classEncabezado";
+///Menú de navegación
 const navegacion = document.getElementById("navBar");
 navegacion.className = "classNavegacion";
+//Pre sección principal
 const preSeccion = document.getElementById("preSeccion");
 preSeccion.className = "classPreSeccion";
+//Contenedor de sección principal y info secundaria
 const divSeccionPrincipal = document.getElementById("divSeccionPrincipal");
 divSeccionPrincipal.className = "container";
-const infoPrincipal = document.getElementById("infoPrincipal");
+///Sección principal
+const infoPrincipal = document.getElementById("seccionPrincipal");
 infoPrincipal.className = "gridListas";
-const posSeccion = document.getElementById("posSeccion");
-posSeccion.className = "classPosSeccion";
+///Información secundaria sobre el estatuto
 const infoSecundaria = document.getElementById("menuLateral");
 infoSecundaria.className = "gridEstatuto";
+//Pos sección principal
+const posSeccion = document.getElementById("posSeccion");
+posSeccion.className = "classPosSeccion";
+//Pie de página con los resultados
 const pie = document.getElementById("piePagina"); 
 pie.className = "classPie";
 
