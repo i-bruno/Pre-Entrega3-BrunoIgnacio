@@ -162,7 +162,8 @@ a {
   justify-content: space-evenly; }
 
 /* GRID */
-.container {  display: grid;
+.container {  
+  display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   grid-auto-columns: 1fr;
@@ -172,7 +173,15 @@ a {
     "gridListas gridEstatuto";
 }
 
-.gridListas { grid-area: gridListas; }
+.gridListas { 
+  grid-area: gridListas;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
 
-.gridEstatuto { grid-area: gridEstatuto; }
+.gridEstatuto { 
+  grid-area: gridEstatuto; 
+}
 
