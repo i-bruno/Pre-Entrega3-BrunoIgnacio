@@ -1870,7 +1870,7 @@ lista10.porcentaje = ((lista10.votos/votosTotales)*100).toFixed(3);
         case 2:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos + ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
             pie.appendChild(divEnunciado);
         break;
         case 3:
@@ -1955,5 +1955,9 @@ minoria.id = "minoria";
 minoria.innerHTML = '<p>La minoría obtuvo un total de '+ votosMinoria + ' votos que equivalen al ' + porcentajeMinoria +' porciento.</p>';
 pie.appendChild(minoria);
 
+const divGrafica = document.createElement("div");
+divGrafica.className = "containerGrafica";
+divGrafica.innerHTML = "<div class='as1'></div><div class='as1'></div><div class='as2'></div><div class='as3'></div><div class='as4'></div><div class='as5'></div><div class='as6'></div><div class='as7'></div><div class='as8'></div><div class='as9'></div><div class='as10'></div><div class='as11'></div><div class='as12'></div><div class='as13'></div><div class='as14'></div><div class='as15'></div><div class='as16'></div><div class='as17'></div><div class='as18'></div><div class='as19'></div><div class='as20'></div><div class='as21'></div><div class='as22'></div><div class='as23'></div><div class='as24'></div><div class='as25'></div><div class='as26'></div><div class='as27'></div><div class='as28'></div><div class='as29'></div><div class='as30'></div><div class='as31'></div><div class='as32'></div><div class='as33'></div><div class='as34'></div><div class='as35'></div><div class='as36'></div><div class='as37'></div><div class='as38'></div><div class='as39'></div><div class='as40'></div><div class='as41'></div><div class='as42'></div><div class='as43'></div><div class='as44'></div><div class='as45'></div><div class='as46'></div><div class='as47'></div><div class='as48'></div><div class='as49'></div><div class='as50'></div><div class='as51'></div><div class='as52'></div><div class='as53'></div><div class='as54'></div><div class='as55'></div><div class='as56'></div><div class='as57'></div><div class='as58'></div><div class='as59'></div><div class='as60'></div><div class='as61'></div><div class='as62'></div><div class='as63'></div><div class='as64'></div><div class='as65'></div><div class='as66'></div><div class='as67'></div><div class='as68'></div><div class='as69'></div><div class='as70'></div><div class='as71'></div><div class='as72'></div><div class='as73'></div><div class='as74'></div><div class='as75'></div><div class='as76'></div><div class='as77'></div><div class='as78'></div><div class='as79'></div><div class='as80'></div><div class='as81'></div><div class='as82'></div><div class='as83'></div><div class='as84'></div><div class='as85'></div><div class='as86'></div><div class='as87'></div><div class='as88'></div><div class='as89'></div><div class='as90'></div>"
+pie.appendChild(divGrafica);
 
 }
