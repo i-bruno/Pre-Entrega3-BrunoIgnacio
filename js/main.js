@@ -1970,6 +1970,6 @@ pie.appendChild(tituloCD);
 
 const tituloCF = document.createElement("h1");
 tituloCF.innerText = "Comisión Fiscalizadora";
-pie.appendChild(tituloCD);
+pie.appendChild(tituloCF);
 
 }
