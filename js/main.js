@@ -1974,6 +1974,10 @@ const tituloCD = document.createElement("h1");
 tituloCD.innerText = "Comisión Directiva";
 pie.appendChild(tituloCD);
 
+const divCD = document.createElement("div");
+divCD.className = "containerCD";
+divCD.innerHTML = "<div class='cd1'></div><div class='cd2'></div><div class='cd3'></div><div class='cd4'></div><div class='cd5'></div><div class='cd6'></div><div class='cd7'></div><div class='cd8'></div><div class='cd9'></div><div class='cd10'></div><div class='cd11'></div><div class='cd12'></div><div class='cd13'></div><div class='cd14'></div><div class='cd15'></div><div class='cd16'></div><div class='cd17'></div><div class='cd18'></div><div class='cd19'></div><div class='cd20'></div>";
+
 const lineaHorizontal3 = document.createElement("hr");
 pie.appendChild(lineaHorizontal3);
 
