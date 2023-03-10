@@ -1965,11 +1965,11 @@ divGrafica.innerHTML = "<div class='as1'><h2>1</h2></div><div class='as2'><h2>2<
 pie.appendChild(divGrafica);
 
 const tituloCD = document.createElement("h1");
-tituloAsambleista.innerText = "Comisión Directiva";
+tituloCD.innerText = "Comisión Directiva";
 pie.appendChild(tituloCD);
 
 const tituloCF = document.createElement("h1");
-tituloAsambleista.innerText = "Comisión Fiscalizadora";
+tituloCF.innerText = "Comisión Fiscalizadora";
 pie.appendChild(tituloCD);
 
 }
