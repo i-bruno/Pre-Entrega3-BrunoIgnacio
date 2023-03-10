@@ -168,7 +168,10 @@ a {
   grid-area: gridEstatuto; 
 }
 
-.containerGrafica {  display: grid;
+.containerGrafica {  
+  display: grid;
+  border:#263d54;
+  border-radius: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
