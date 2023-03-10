@@ -9,13 +9,13 @@ navegacion.className = "classNavegacion";
 const preSeccion = document.getElementById("preSeccion");
 preSeccion.className = "classPreSeccion";
 const divSeccionPrincipal = document.getElementById("divSeccionPrincipal");
-divSeccionPrincipal.className = "divSeccionPrincipal";
-const infoPrincipal = document.getElementById("seccionPrincipal");
+divSeccionPrincipal.className = "container";
+const infoPrincipal = document.getElementById("gridListas");
 infoPrincipal.className = "classInfoPrincipal";
 const posSeccion = document.getElementById("posSeccion");
 posSeccion.className = "classPosSeccion";
 const infoSecundaria = document.getElementById("menuLateral");
-infoSecundaria.className = "classInfoSecundaria";
+infoSecundaria.className = "gridEstatuto";
 const pie = document.getElementById("piePagina"); 
 pie.className = "classPie";
 
