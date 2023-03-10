@@ -1921,7 +1921,7 @@ let listaGanadora = arrayListas.find (function (arrayListas){
 
 const textoGanador = document.createElement("div");
 textoGanador.id = "textoGanador";
-textoGanador.innerHTML = '<p> El candidato ' + listaGanadora.candidato + ' de la agrupación '+ listaGanadora.nombre + ' gano las elecciones con '+ listaGanadora.votos + ' votos.</p>'
+textoGanador.innerHTML = '<p> El candidato <strong>' + listaGanadora.candidato + '</strong> de la agrupación <strong>'+ listaGanadora.nombre + '</strong> gano las elecciones con '+ listaGanadora.votos + ' votos.</p>'
 pie.appendChild(textoGanador);
 
 //Porcentaje de la mayoría
