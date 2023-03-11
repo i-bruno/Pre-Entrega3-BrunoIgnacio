@@ -1441,7 +1441,7 @@ posSeccion.appendChild(etiqVotosImpugnados);
 const votosImpugnados = document.createElement("input");
 posSeccion.appendChild(votosImpugnados);
 
-const boton = document.createElement("input");
+const boton = document.createElement("button");
 boton.setAttribute('type', 'submit');
 boton.className = "boton";
 boton.addEventListener("click", calculo);
