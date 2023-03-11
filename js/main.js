@@ -1993,3 +1993,9 @@ divCF.className = "gridCF";
 divCF.innerHTML = "<div class='cf1'><h2>1</h2></div><div class='cf2'><h2>2</h2></div><div class='cf3'><h2>3</h2></div><div class='cf4'><h2>4</h2></div><div class='cf5'><h2>5</h2></div><div class='cf6'><h2>6</h2></div><div class='cf7'><h2>7</h2></div>";
 pie.appendChild(divCF);
 }
+
+const fichaListas = document.createElement("div");
+fichaListas.id = "fichaListas";
+fichaListas.className = "fichaListas";
+fichaListas.innerHTML = "<div class='divLista1' id='divLista1'></div><div class='divLista2' id='divLista2'></div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista8'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div><div class='divLista10' id='divLista10'></div>";
+pie.appendChild(fichaListas);

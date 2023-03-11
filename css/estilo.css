@@ -460,4 +460,116 @@ a {
 
 .cf7 { grid-area: cf7; }
 
+/* FICHAS DE RESULTADOS */
+
+.fichasListas{
+  display:flex;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid;
+  flex-wrap: wrap;
+}
+.divLista1{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color:green;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista2{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color:orange;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista3{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color:deeppink;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista4{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color:blue;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista5{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color:red;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista6{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color: grey;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista7{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color: black;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista8{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color: purple;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista9{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color: cadetblue;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.divLista10{
+ width:200px;
+ height:125px;
+ padding:10px;
+ background-color: darkgoldenrod;
+ border:2px solid black;
+ border-radius: 10px;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+
 
