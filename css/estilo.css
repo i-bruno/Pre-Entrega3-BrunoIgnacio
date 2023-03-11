@@ -428,3 +428,36 @@ a {
 
 .cd20 { grid-area: cd20; }
 
+/* GRID CAMISIÓN FISCALIZADORA */
+
+.gridCF {  
+  display: grid;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-color:#263d54;
+  border-style: solid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "cf1 cf2 cf3 cf4 cf5 cf6 cf7";
+}
+
+.cf1 { grid-area: cf1; }
+
+.cf2 { grid-area: cf2; }
+
+.cf3 { grid-area: cf3; }
+
+.cf4 { grid-area: cf4; }
+
+.cf5 { grid-area: cf5; }
+
+.cf6 { grid-area: cf6; }
+
+.cf7 { grid-area: cf7; }
+
+
