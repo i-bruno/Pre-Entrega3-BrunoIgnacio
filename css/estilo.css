@@ -27,8 +27,8 @@ footer {
   height: auto;
   width: auto;
   background-color: #bf1b27;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  /* flex-direction: column;
+  flex-wrap: wrap;*/ } 
 
 section {
   margin: 5px 5px 5px 5px;
