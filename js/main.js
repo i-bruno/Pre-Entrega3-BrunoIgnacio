@@ -1535,24 +1535,25 @@ function resultado(){
 
 
 class Agrupaciones {
-    constructor (nombre, candidato, votos, porcentaje){
+    constructor (nombre, candidato, votos, porcentaje, color){
         this.nombre = nombre;
         this.candidato = candidato;
         this.votos = votos;
         this.porcentaje = porcentaje;
+        this.color = color;
     }
 }
 
-const lista1 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista2 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista3 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista4 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista5 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista6 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista7 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista8 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista9 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
-const lista10 = new Agrupaciones ("sin definir", "sin definir", 0, 0);
+const lista1 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "green");
+const lista2 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "orange");
+const lista3 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "deeppink");
+const lista4 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "blue");
+const lista5 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "red");
+const lista6 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "grey");
+const lista7 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "black");
+const lista8 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "purple");
+const lista9 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "cadetblue");
+const lista10 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "darkgoldenrod");
 
 function calculo(){
     let cantidadListas = document.getElementById("numListas").value;
