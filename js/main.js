@@ -1444,6 +1444,7 @@ posSeccion.appendChild(votosImpugnados);
 const boton = document.createElement("button");
 boton.setAttribute('type', 'submit');
 boton.className = "boton";
+boton.innerText = "Enviar consulta";
 boton.addEventListener("click", calculo);
 posSeccion.appendChild(boton);
 
