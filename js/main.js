@@ -1866,14 +1866,40 @@ lista8.porcentaje = ((lista8.votos/votosTotales)*100).toFixed(3);
 lista9.porcentaje = ((lista9.votos/votosTotales)*100).toFixed(3);
 lista10.porcentaje = ((lista10.votos/votosTotales)*100).toFixed(3);
 
-    let divEnunciado
+const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10]
+
+//Busca cual es la lista que sacó mayores votos.
+let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
+
+let listaGanadora = arrayListas.find (function (arrayListas){
+    return arrayListas.votos == votosMayor;
+});
+
+//Porcentaje de la mayoría
+let porcentajeMayoria = parseFloat((votosMayor*100)/votosTotales).toFixed(3);
+
+//Porcentaje de la minoría
+let votosMinoria = (votosTotales-votosMayor)-totBlancos;
+
+let porcentajeMinoria = parseFloat((votosMinoria*100)/votosTotales).toFixed(3);
+
+
+
+
+let divEnunciado
+let fichaListas
 
     switch(parseInt(cantidadListas)){
         case 2:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos + ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div>";
         break;
         case 3:
             divEnunciado = document.createElement("div");
@@ -1925,32 +1951,21 @@ lista10.porcentaje = ((lista10.votos/votosTotales)*100).toFixed(3);
         break;
     }
 
-    const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10]
 
-//Busca cual es la lista que sacó mayores votos.
-let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
-
-let listaGanadora = arrayListas.find (function (arrayListas){
-    return arrayListas.votos == votosMayor;
-});
 
 const textoGanador = document.createElement("div");
 textoGanador.id = "textoGanador";
 textoGanador.innerHTML = '<p> El candidato <strong>' + listaGanadora.candidato + '</strong> de la agrupación <strong>'+ listaGanadora.nombre + '</strong> gano las elecciones con '+ listaGanadora.votos + ' votos.</p>'
 pie.appendChild(textoGanador);
 
-//Porcentaje de la mayoría
-let porcentajeMayoria = parseFloat((votosMayor*100)/votosTotales).toFixed(3);
+
 
 const mayoria = document.createElement("div");
 mayoria.id = "mayoria";
 mayoria.innerHTML = '<p>La mayoría obtuvo un ' + porcentajeMayoria + ' porciento</p>';
 pie.appendChild(mayoria);
 
-//Porcentaje de la minoría
-let votosMinoria = (votosTotales-votosMayor)-totBlancos;
 
-let porcentajeMinoria = parseFloat((votosMinoria*100)/votosTotales).toFixed(3);
 
 const minoria = document.createElement("div");
 minoria.id = "minoria";
