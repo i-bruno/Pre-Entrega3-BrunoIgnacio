@@ -1905,50 +1905,98 @@ let fichaListas
         case 3:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'>";
+            pie.appendChild(fichaListas);
         break;
         case 4:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div>";
+            pie.appendChild(fichaListas);
         break;
         case 5:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div>";
+            pie.appendChild(fichaListas);
         break;
         case 6:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div>";
+            pie.appendChild(fichaListas);
         break;
         case 7:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div>";
+            pie.appendChild(fichaListas);
         break;
         case 8:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p> '+ lista8.candidato + ' de la agrupación ' + lista8.nombre + ' obtuvo '+ lista8.votos+ ' votos.</p> <p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div>";
+            pie.appendChild(fichaListas);
         break;
         case 9:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p> '+ lista8.candidato + ' de la agrupación ' + lista8.nombre + ' obtuvo '+ lista8.votos+ ' votos.</p> <p> '+ lista9.candidato + ' de la agrupación ' + lista9.nombre + ' obtuvo '+ lista9.votos+ ' votos.</p><p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div>";
+            pie.appendChild(fichaListas);
         break;
         case 10:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = '<h2>Resultado de las elecciones:</h2><p> '+ lista1.candidato + ' de la agrupación ' + lista1.nombre + ' obtuvo '+ lista1.votos+ ' votos.</p> <p> '+ lista2.candidato + ' de la agrupación ' + lista2.nombre + ' obtuvo '+ lista2.votos+ ' votos.</p> <p> '+ lista3.candidato + ' de la agrupación ' + lista3.nombre + ' obtuvo '+ lista3.votos+ ' votos.</p> <p> '+ lista4.candidato + ' de la agrupación ' + lista4.nombre + ' obtuvo '+ lista4.votos+ ' votos.</p> <p> '+ lista5.candidato + ' de la agrupación ' + lista5.nombre + ' obtuvo '+ lista5.votos+ ' votos.</p>  <p> '+ lista6.candidato + ' de la agrupación ' + lista6.nombre + ' obtuvo '+ lista6.votos+ ' votos.</p> <p> '+ lista7.candidato + ' de la agrupación ' + lista7.nombre + ' obtuvo '+ lista7.votos+ ' votos.</p> <p> '+ lista8.candidato + ' de la agrupación ' + lista8.nombre + ' obtuvo '+ lista8.votos+ ' votos.</p> <p> '+ lista9.candidato + ' de la agrupación ' + lista9.nombre + ' obtuvo '+ lista9.votos+ ' votos.</p> <p> '+ lista10.candidato + ' de la agrupación ' + lista10.nombre + ' obtuvo '+ lista10.votos+ ' votos.</p><p>Hubo un total de ' + totBlancos + ' votos en blanco</p> <p>Se registró un total de '+ votosTotales + ' votos.</p>'; 
+            divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
+
+            fichaListas = document.createElement("div");
+            fichaListas.id = "fichaListas";
+            fichaListas.className = "fichaListas";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div><div class='divLista10' id='divLista10'></div>";
+            pie.appendChild(fichaListas);
         break;
     }
 
@@ -2012,7 +2060,7 @@ pie.appendChild(divCF);
 // const fichaListas = document.createElement("div");
 // fichaListas.id = "fichaListas";
 // fichaListas.className = "fichaListas";
-// fichaListas.innerHTML = "<div class='divLista1' id='divLista1'></div><div class='divLista2' id='divLista2'></div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista8'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div><div class='divLista10' id='divLista10'></div>";
+// fichaListas.innerHTML = "<div class='divLista1' id='divLista1'></div><div class='divLista2' id='divLista2'></div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div><div class='divLista10' id='divLista10'></div>";
 // pie.appendChild(fichaListas);
 }
 
