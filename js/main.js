@@ -1900,6 +1900,7 @@ let fichaListas
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div>";
+            pie.appendChild(fichaListas);
         break;
         case 3:
             divEnunciado = document.createElement("div");
