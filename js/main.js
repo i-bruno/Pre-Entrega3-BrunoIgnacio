@@ -1896,14 +1896,14 @@ let fichaListas
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
 
-            fichaListas = document.createElement("div");
+            fichaListas = document.createElement("section");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div>";
             pie.appendChild(fichaListas);
         break;
         case 3:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
@@ -1915,7 +1915,7 @@ let fichaListas
             pie.appendChild(fichaListas);
         break;
         case 4:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
@@ -1927,7 +1927,7 @@ let fichaListas
             pie.appendChild(fichaListas);
         break;
         case 5:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
@@ -1939,7 +1939,7 @@ let fichaListas
             pie.appendChild(fichaListas);
         break;
         case 6:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
@@ -1951,7 +1951,7 @@ let fichaListas
             pie.appendChild(fichaListas);
         break;
         case 7:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
@@ -1963,7 +1963,7 @@ let fichaListas
             pie.appendChild(fichaListas);
         break;
         case 8:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
@@ -1975,7 +1975,7 @@ let fichaListas
             pie.appendChild(fichaListas);
         break;
         case 9:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
@@ -1987,7 +1987,7 @@ let fichaListas
             pie.appendChild(fichaListas);
         break;
         case 10:
-            divEnunciado = document.createElement("div");
+            divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
             divEnunciado.innerHTML = '<h2>Las elecciones las ganó: '+ listaGanadora.candidato + '(' + listaGanadora.nombre + ')</h2>'; 
             pie.appendChild(divEnunciado);
