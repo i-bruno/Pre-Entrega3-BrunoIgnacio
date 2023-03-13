@@ -1923,7 +1923,7 @@ let fichaListas
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div>";
             pie.appendChild(fichaListas);
         break;
         case 5:
@@ -1935,7 +1935,7 @@ let fichaListas
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div>";
             pie.appendChild(fichaListas);
         break;
         case 6:
@@ -1947,7 +1947,7 @@ let fichaListas
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div>";
             pie.appendChild(fichaListas);
         break;
         case 7:
@@ -1959,7 +1959,7 @@ let fichaListas
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div>";
             pie.appendChild(fichaListas);
         break;
         case 8:
@@ -1971,7 +1971,7 @@ let fichaListas
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div>";
             pie.appendChild(fichaListas);
         break;
         case 9:
@@ -1983,7 +1983,7 @@ let fichaListas
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div>";
             pie.appendChild(fichaListas);
         break;
         case 10:
@@ -1995,7 +1995,7 @@ let fichaListas
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div><div class='divLista10' id='divLista10'></div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'>Prueba1</div><div class='divLista2' id='divLista2'>Prueba2</div><div class='divLista3' id='divLista3'></div><div class='divLista4' id='divLista4'></div><div class='divLista5' id='divLista5'></div><div class='divLista6' id='divLista6'></div><div class='divLista7' id='divLista7'></div><div class='divLista8' id='divLista8'></div><div class='divLista9' id='divLista9'></div><div class='divLista10' id='divLista10'></div>";
             pie.appendChild(fichaListas);
         break;
     }
