@@ -19,7 +19,7 @@ header {
   width: auto;
   background-color: #bf1b27; }
 
-/* footer {
+footer {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
@@ -29,7 +29,7 @@ header {
   background-color: #bf1b27;
   flex-direction: column;
   flex-wrap: wrap;
-}  */
+}
 
 section {
   margin: 5px 5px 5px 5px;
