@@ -1899,7 +1899,7 @@ let fichaListas
             fichaListas = document.createElement("section");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
-            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'> " + listaGanadora.nombre + " </div><div class='divLista2' id='divLista2'>" + lista2.nombre + "</div>";
+            fichaListas.innerHTML = "<div class='divLista1' id='divLista1'><h3> " + listaGanadora.nombre + " </h3></div><div class='divLista2' id='divLista2'><h3>" + lista2.nombre + "</h3></div>";
             pie.appendChild(fichaListas);
         break;
         case 3:
