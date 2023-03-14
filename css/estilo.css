@@ -147,10 +147,10 @@ div {
   justify-content: space-evenly;
   align-items: center; }
 
-/* .classPie {
+.classPie {
   display: flex;
   justify-content: space-evenly; 
-} */
+}
 
 /* GRID ASAMBLEA */
 .container {  
@@ -471,13 +471,13 @@ div {
 /* FICHAS DE RESULTADOS */
 
 .fichasListas{
-  display:flex;
   height: auto;
   width: auto;
   align-items: center;
-  justify-content: space-evenly;
   border: solid;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .divLista1{
  width:200px;
