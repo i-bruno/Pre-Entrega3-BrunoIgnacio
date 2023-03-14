@@ -69,9 +69,13 @@ a {
 
 div {
   display:flex;
+  justify-content: center;
 }
 
 /*Clases*/
+.divEnunciado{
+  justify-content: center;
+}
 
 .calculadora {
   margin: 5px 5px 5px 5px;
