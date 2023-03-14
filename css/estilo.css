@@ -37,6 +37,7 @@ section {
   background-color: #bf1b27;
   border-radius: 10px; 
   display:flex;
+  justify-content: center;
 }
 
 table {
@@ -69,7 +70,7 @@ a {
 
 div {
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 /*Clases*/
