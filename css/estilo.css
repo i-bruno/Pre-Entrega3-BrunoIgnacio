@@ -67,6 +67,10 @@ a {
   text-decoration: none;
   color: white; }
 
+div {
+  display:flex;
+}
+
 /*Clases*/
 
 .calculadora {
